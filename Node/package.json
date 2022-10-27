@@ -1,0 +1,13 @@
+{
+  "name": "issa-trap",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Pierre Maillot",
+  "dependencies": {
+      "dayjs": "^1.11.5",
+      "md5": "^2.3.0",
+      "rdflib": "^2.2.20"
+  }
+}
