@@ -1,5 +1,7 @@
 import * as fs from "fs";
 import * as $rdf from 'rdflib';
+import $ from 'jquery';
+import { saveAs } from 'file-saver';
 import dayjs from 'dayjs';
 import duration from 'dayjs/plugin/duration.js';
 dayjs.extend(duration);
@@ -21,6 +23,7 @@ var DCT = $rdf.Namespace("http://purl.org/dc/terms/");
 var SKOS = $rdf.Namespace("http://www.w3.org/2004/02/skos/core#");
 var PAV = $rdf.Namespace("http://purl.org/pav/");
 var MOD = $rdf.Namespace("https://w3id.org/mod#");
+
 function appendToFile(filename, content) {
     fs.writeFile(filename, content, { flag: 'a+' }, err => {
         if (err) {
@@ -119,7 +122,7 @@ function sparqlQueryPromise(endpoint, query) {
     }
 }
 
-function paginatedSparqlQueryPromise(endpoint, query, pageFunctionPromise = pageResultBindingItem => { return ;}, limit = queryPaginationSize, offset = 0, finalResult = []) {
+function paginatedSparqlQueryPromise(endpoint, query, pageFunctionPromise = pageResultBindingItem => { return; }, limit = queryPaginationSize, offset = 0, finalResult = []) {
     var paginatedQuery = query + " LIMIT " + limit + " OFFSET " + offset;
     return sparqlQueryPromise(paginatedQuery)
         .then(queryResult => {
@@ -147,3 +150,7 @@ function paginatedSparqlQueryPromise(endpoint, query, pageFunctionPromise = page
             return finalResult;
         })
 }
+
+
+$(() => {
+})
