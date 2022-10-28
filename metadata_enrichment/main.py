@@ -10,7 +10,8 @@ from sparql import select
 import json
 
 # set SPARQL service : ISSA endpoint
-issa_endpoint = "https://data-issa.cirad.fr/sparql"
+issa_endpoint = "http://erebe-vm20.i3s.unice.fr:8890/sparql"
+# "https://data-issa.cirad.fr/sparql"
 issa_sparql = SPARQLWrapper(issa_endpoint)
 
 # set API endpoints
@@ -49,6 +50,13 @@ def get_DOI_with_authors_from_issa(**kwargs):
     return results
 
 
+def get_article_issa_from_DOI(doi: str):
+    query = select(ISSA_PREFIX, "?article", "?article bibo:doi '{}'".format(doi))
+    issa_sparql.setQuery(query)
+    issa_sparql.setReturnFormat(JSON)
+    return json.load(issa_sparql.query().response)["results"]["bindings"][0]["article"]["value"]
+
+
 def get_authors_from_semantic_scholar_by_DOI(doi: str):
     service = "paper/{}/authors".format(doi) + "?fields=name,externalIds"
     result = requests.get(semantic_scholar_endpoint + service)
@@ -69,32 +77,39 @@ def get_authors_from_openalex_by_DOI(doi: str):
     return result
 
 
-if __name__ == '__main__':
+def main():
     print("Alignement des auteurs pour 100 articles du jeu de données ISSA: " + issa_endpoint)
     doi_with_authors: dict = get_DOI_with_authors_from_issa(limit=100)
     # Pour chaques articles, on va récupérer ses informations relatives sur les
     # différents endpoints disponibles
     print("------------------------------------")
     for doi in doi_with_authors.keys():
-        print("DOI = " + doi)
+        print("# DOI = " + doi)
         authors_from_openalex = get_authors_from_openalex_by_DOI(doi)
         authors_from_openalex_with_orcid = [(author, orcid) for author, orcid in authors_from_openalex if orcid is not None]
-        print(str(len(authors_from_openalex_with_orcid)) + " authors have an ORCID on " + openalex_endpoint)
+        print("# " + str(len(authors_from_openalex_with_orcid)) + " authors have an ORCID on " + openalex_endpoint)
         if len(authors_from_openalex_with_orcid) != 0:
             # compute the distance between them and bind them
-            for author_issa in doi_with_authors[str(doi)]:
+            for author_openalex, orcid_openalex in authors_from_openalex_with_orcid:
                 distances = []
                 similar_author = ""
-                for author_openalex, orcid_openalex in authors_from_openalex_with_orcid:
-                    distance = get_similarity(author_issa, author_openalex)
+                orcid = ""
+                for author_issa in doi_with_authors[str(doi)]:
+                    distance = get_similarity(author_openalex, author_issa)
                     distances.append(distance)
                     if distance <= min(distances):
-                        similar_author = author_openalex
-                print("The nearest author " + author_issa + " from ISSA is: " + similar_author + " in OpenAlex")
+                        similar_author = author_issa
+                        orcid = orcid_openalex
+                print("# The nearest author " + author_openalex + " from OpenAlex is: " + similar_author + " in ISSA")
+                print("# Proposal RDF Triple (turtle): ")
+                print(get_article_issa_from_DOI(doi) + " issa:orcid " + orcid)
         else:
             print("Nothing to do ...")
         print("------------------------------------")
 
+
+if __name__ == '__main__':
+    main()
 
 # get_authors_from_semantic_scholar_by_DOI("10.1684/agr.2012.0548")
 # print(get_similarity("Toto tata", "Tutu tete"))
