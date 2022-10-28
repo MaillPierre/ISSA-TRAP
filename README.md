@@ -29,6 +29,7 @@ Idées:
 - Lier/desambiguiser les auteurs et institutions
 - Detection de boublons
 - Utiliser ResarchGate (Sci-Hub) pour trouver PDF manquants ?
+- Requetes par mot-clés qui utilise la hierarchie pour donner des résultats plus complets et avec des résultats ordonnés
 
 ---
 
