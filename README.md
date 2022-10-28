@@ -7,14 +7,14 @@ Endpoint ISSA: https://data-issa.cirad.fr/sparql
 ---
 
 Idées:
-- Script pour interrogation de DOI/ISSN vers ORKG
+- Script pour interrogation de DOI/ISSN vers ORKG: https://orkg.org/data
     - Trouver autres APIs
         - https://api.archives-ouvertes.fr/docs
             - Probablement deja fait
-        - Semantic Scholar
+        - Semantic Scholar https://www.semanticscholar.org/product/api
         - OpenAlex ?
         - Wikify ?
-        - DBLp
+        - DBLp https://dblp.org/faq/How+to+use+the+dblp+search+API.html
         - identifiant des auteurs français avec idref
 - Préparer KNIME pour rechercher pattern/clusters dans les données
     - Regarder extraction de patterns
