@@ -1,0 +1,16 @@
+{
+  "name": "issa-trap_citation-graph",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Pierre Maillot",
+  "dependencies": {
+    "md5": "^2.3.0",
+    "rdflib": "^2.2.20"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "process": "^0.11.10"
+  }
+}
