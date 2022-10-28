@@ -7,6 +7,8 @@ import duration from 'dayjs/plugin/duration.js';
 dayjs.extend(duration);
 import * as md5 from 'md5';
 import { Statement } from "rdflib";
+import 'leaflet';
+import * as dt from 'datatables.net-bs5';
 
 var RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#");
 var RDFS = $rdf.Namespace("http://www.w3.org/2000/01/rdf-schema#");
@@ -153,4 +155,21 @@ function paginatedSparqlQueryPromise(endpoint, query, pageFunctionPromise = page
 
 
 $(() => {
+    var mapObject = L.map('map').setView([39.36827914916014, 12.117919921875002], 2);
+
+    // Initialization of the map
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFpbGxwaWVycmUiLCJhIjoiY2t5OXlxeXhkMDBlZDJwcWxpZTF4ZGkxZiJ9.dCeJEhUs7EF2HI50vdv-7Q', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox/streets-v11',
+        tileSize: 512,
+        zoomOffset: -1,
+        accessToken: 'pk.eyJ1IjoibWFpbGxwaWVycmUiLCJhIjoiY2t5OXlxeXhkMDBlZDJwcWxpZTF4ZGkxZiJ9.dCeJEhUs7EF2HI50vdv-7Q'
+    }).addTo(mapObject);
+    var layerGroup = L.layerGroup().addTo(mapObject);
+
+
+    L.marker([43.61469940580401, 7.071802771869515]).addTo(mapObject)
+    .bindPopup('ISSA TRAP !!!')
+    .openPopup();
 })
