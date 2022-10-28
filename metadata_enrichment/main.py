@@ -78,19 +78,26 @@ def get_authors_from_openalex_by_DOI(doi: str):
 
 
 def main():
+    results = dict()
     print("Alignement des auteurs pour 100 articles du jeu de données ISSA: " + issa_endpoint)
+    results["endpoint"] = openalex_endpoint
     doi_with_authors: dict = get_DOI_with_authors_from_issa(limit=100)
     # Pour chaques articles, on va récupérer ses informations relatives sur les
     # différents endpoints disponibles
+    results["articles"] = []
     print("------------------------------------")
     for doi in doi_with_authors.keys():
+        article = dict()
         print("# DOI = " + doi)
+        article["doi"] = str(doi)
         authors_from_openalex = get_authors_from_openalex_by_DOI(doi)
         authors_from_openalex_with_orcid = [(author, orcid) for author, orcid in authors_from_openalex if orcid is not None]
         print("# " + str(len(authors_from_openalex_with_orcid)) + " authors have an ORCID on " + openalex_endpoint)
+        article["authors"] = []
         if len(authors_from_openalex_with_orcid) != 0:
             # compute the distance between them and bind them
             for author_openalex, orcid_openalex in authors_from_openalex_with_orcid:
+                author_dict = dict()
                 distances = []
                 similar_author = ""
                 orcid = ""
@@ -101,11 +108,26 @@ def main():
                         similar_author = author_issa
                         orcid = orcid_openalex
                 print("# The nearest author " + author_openalex + " from OpenAlex is: " + similar_author + " in ISSA")
+                author_dict["issa"] = similar_author
+                author_dict["openAlex"] = author_openalex
                 print("# Proposal RDF Triple (turtle): ")
-                print(get_article_issa_from_DOI(doi) + " issa:orcid " + orcid)
+                triple = get_article_issa_from_DOI(doi) + " issa:orcid " + orcid
+                print(triple)
+                author_dict["triple"] = triple
+                article["authors"] += [author_dict]
         else:
             print("Nothing to do ...")
+        results["articles"] += [article]
         print("------------------------------------")
+    # export dict in file
+    save_results(results)
+    print("Done !")
+
+
+def save_results(results: dict):
+    with open("results/resutls.json", mode="w", encoding="utf-8") as file:
+        file.write(json.dumps(results, indent=2))
+        file.close()
 
 
 if __name__ == '__main__':
