@@ -1,7 +1,9 @@
 
 Node/node_modules/
 
-Node/package-lock.json
+Node/website/node_modules/
+
+Node/website/package-lock.json
 
 Node/.parcel-cache/
 
@@ -10,3 +12,7 @@ Node/dist/
 Node/citations_graph/node_modules/
 
 Node/citations_graph/package-lock.json
+
+Node/website/dist/
+
+Node/website/package-lock.json
