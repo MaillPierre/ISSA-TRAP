@@ -14,7 +14,8 @@ Idées:
         - Semantic Scholar
         - OpenAlex ?
         - Wikify ?
-        - DBLP
+        - DBLp
+        - identifiant des auteurs français avec idref
 - Préparer KNIME pour rechercher pattern/clusters dans les données
     - Regarder extraction de patterns
 - Regarder correlation Geo/mot-clés
