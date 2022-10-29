@@ -33,4 +33,4 @@ Depuis la racine de ce module:
 
 ## Utilisation
 
-
+`[PATH]/python.exe issa.py`
