@@ -383,7 +383,6 @@ function openAlexCitations(limit) {
                                 articles.forEach(citationUri => {
                                     const simpleCitationTriples = generateSimpleCitationTriples(articleUri, citationUri, "https://openalex.org/");
                                     const complexCitationTriples = generateComplexCitationTriples(articleUri, citationUri, "https://openalex.org/");
-                                    console.log(complexCitationTriples.map(triple => triple.toNT()))
                                     openAlexRDFStore.add(simpleCitationTriples);
                                     openAlexRDFStore.addAll(complexCitationTriples);
                                 })
