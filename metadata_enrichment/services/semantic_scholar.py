@@ -38,6 +38,10 @@ def main(doi_with_authors: dict, issa_uri_by_dois: dict):
         authors_from_semantic_scholar_with_url = [(author, url) for author, url in authors_from_semantic_scholar if
                                                   url is not None]
         print("# " + str(len(authors_from_semantic_scholar_with_url)) + " authors have an URL !")
+        article["authors_matched_rate"] = len(authors_from_semantic_scholar_with_url) / \
+                                          len(authors_from_semantic_scholar)
+        print(str(len(authors_from_semantic_scholar_with_url)) + " / " +
+                                          str(len(authors_from_semantic_scholar)))
         article["authors"] = []
         if len(authors_from_semantic_scholar_with_url) != 0:
             # compute the distance between them and bind them
@@ -67,13 +71,3 @@ def main(doi_with_authors: dict, issa_uri_by_dois: dict):
         results["articles"] += [article]
         print("------------------------------------")
     return results
-
-
-# if __name__ == '__main__':
-#     main()
-    # paper = sch.get_paper('10.1093/mind/lix.236.433')
-    # print(paper.authors)
-    # with open("test.json", mode="w", encoding="utf-8") as f:
-    #     f.write(json.dumps(paper., indent=2))
-    #     f.close()
-    # print(paper)

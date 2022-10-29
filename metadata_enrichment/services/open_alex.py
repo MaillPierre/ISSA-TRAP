@@ -36,6 +36,10 @@ def main(doi_with_authors: dict, issa_uri_by_dois: dict):
                                             orcid is not None]
         print("# " + str(len(authors_from_openalex_with_orcid)) + " authors have an ORCID !")
         article["authors"] = []
+        article["authors_matched_rate"] = len(authors_from_openalex_with_orcid) / \
+                                          len(authors_from_openalex)
+        print(str(len(authors_from_openalex_with_orcid)) + " / " +
+              str(len(authors_from_openalex)))
         if len(authors_from_openalex_with_orcid) != 0:
             # compute the distance between them and bind them
             for author_openalex, orcid_openalex in authors_from_openalex_with_orcid:
