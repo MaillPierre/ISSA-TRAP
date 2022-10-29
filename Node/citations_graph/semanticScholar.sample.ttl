@@ -1,0 +1,115 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix d: <http://data-issa.cirad.fr/>.
+@prefix n0: <http://data-issa.cirad.fr/article/>.
+@prefix cit: <http://data-issa.cirad.fr/citation/>.
+@prefix cito: <http://purl.org/spar/cito#>.
+
+d:55b4c44966e569adae511c541cf95691
+    schema:propertyID <https://www.semanticscholar.org>;
+    schema:value "143265763";
+    rdfs:label "CorpusId".
+d:80787aea144623737bd569801422e71a
+    schema:propertyID <https://www.semanticscholar.org>;
+    schema:value "42671850";
+    rdfs:label "CorpusId".
+n0:388623
+    dct:bibliographicCitation n0:553007, n0:573815;
+    schema:identifier d:80787aea144623737bd569801422e71a.
+n0:390900
+    dct:bibliographicCitation n0:534189;
+    schema:identifier d:dc5eaeeba9d34270107ddb3f781680f1 .
+n0:556221
+    dct:bibliographicCitation n0:560737;
+    schema:identifier d:55b4c44966e569adae511c541cf95691 .
+n0:564549
+    dct:bibliographicCitation n0:595658;
+    schema:identifier d:b75d0d17e4418291084e814c1a9e03dd.
+n0:588487
+    dct:bibliographicCitation n0:592978, n0:595132, n0:596682;
+    schema:identifier d:f9f6c1518cd17d8f209c3143ee389d87 .
+n0:592919
+    dct:bibliographicCitation n0:598281;
+    schema:identifier d:f5b67373197c9d0779884608e107aee1 .
+d:b75d0d17e4418291084e814c1a9e03dd
+    schema:propertyID <https://www.semanticscholar.org>;
+    schema:value "3979293";
+    rdfs:label "CorpusId".
+cit:01ee4cc5-d005-4cd6-a1cc-a64f5ce3867a
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n0:592978;
+    cito:hasCitingEntity n0:588487;
+    prov:generatedAtTime "2022-10-29T10:24:30.877Z"^^xsd:datetime;
+    prov:wasAssociatedWith <https://www.semanticscholar.org>.
+cit:211b0a81-dfa1-4058-addb-ae3dd0bc9107
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n0:573815;
+    cito:hasCitingEntity n0:388623;
+    prov:generatedAtTime "2022-10-29T10:24:30.769Z"^^xsd:datetime;
+    prov:wasAssociatedWith <https://www.semanticscholar.org>.
+cit:4204a65a-3c5d-4d6f-888a-8b987d89b2b4
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n0:595132;
+    cito:hasCitingEntity n0:588487;
+    prov:generatedAtTime "2022-10-29T10:24:30.869Z"^^xsd:datetime;
+    prov:wasAssociatedWith <https://www.semanticscholar.org>.
+cit:666e0704-d7ba-412e-a3cf-2b1922096917
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n0:596682;
+    cito:hasCitingEntity n0:588487;
+    prov:generatedAtTime "2022-10-29T10:24:30.882Z"^^xsd:datetime;
+    prov:wasAssociatedWith <https://www.semanticscholar.org>.
+cit:82cc0588-12a6-4966-a015-fc1bdaa02380
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n0:553007;
+    cito:hasCitingEntity n0:388623;
+    prov:generatedAtTime "2022-10-29T10:24:30.771Z"^^xsd:datetime;
+    prov:wasAssociatedWith <https://www.semanticscholar.org>.
+cit:896a425e-f2d8-4946-bdcd-7a169d3c553a
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n0:560737;
+    cito:hasCitingEntity n0:556221;
+    prov:generatedAtTime "2022-10-29T10:24:31.636Z"^^xsd:datetime;
+    prov:wasAssociatedWith <https://www.semanticscholar.org>.
+cit:a72c8e5d-559b-4686-9a7f-207116da05cb
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n0:534189;
+    cito:hasCitingEntity n0:390900;
+    prov:generatedAtTime "2022-10-29T10:24:30.766Z"^^xsd:datetime;
+    prov:wasAssociatedWith <https://www.semanticscholar.org>.
+cit:cb3999a3-a16e-4075-b67b-5be02e9e7115
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n0:598281;
+    cito:hasCitingEntity n0:592919;
+    prov:generatedAtTime "2022-10-29T10:24:31.598Z"^^xsd:datetime;
+    prov:wasAssociatedWith <https://www.semanticscholar.org>.
+cit:ceeab654-2951-45c4-b32a-b5e0ab97031c
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n0:595658;
+    cito:hasCitingEntity n0:564549;
+    prov:generatedAtTime "2022-10-29T10:24:30.700Z"^^xsd:datetime;
+    prov:wasAssociatedWith <https://www.semanticscholar.org>.
+d:dc5eaeeba9d34270107ddb3f781680f1
+    schema:propertyID <https://www.semanticscholar.org>;
+    schema:value "45304528";
+    rdfs:label "CorpusId".
+d:f5b67373197c9d0779884608e107aee1
+    schema:propertyID <https://www.semanticscholar.org>;
+    schema:value "86713670";
+    rdfs:label "CorpusId".
+d:f9f6c1518cd17d8f209c3143ee389d87
+    schema:propertyID <https://www.semanticscholar.org>;
+    schema:value "150012275";
+    rdfs:label "CorpusId".

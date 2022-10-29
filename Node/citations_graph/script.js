@@ -1,8 +1,9 @@
 import * as fs from "fs";
 import * as $rdf from 'rdflib';
-import * as md5 from 'md5';
+import md5 from 'md5';
 import { Statement } from "rdflib";
 import { v4 as uuidv4 } from 'uuid';
+import dayjs from 'dayjs'
 
 var RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#");
 var RDFS = $rdf.Namespace("http://www.w3.org/2000/01/rdf-schema#");
@@ -20,6 +21,8 @@ var SKOS = $rdf.Namespace("http://www.w3.org/2004/02/skos/core#");
 var PAV = $rdf.Namespace("http://purl.org/pav/");
 var MOD = $rdf.Namespace("https://w3id.org/mod#");
 var CITO = $rdf.Namespace("http://purl.org/spar/cito#");
+
+var ISSA = $rdf.Namespace("http://data-issa.cirad.fr/");
 
 function appendToFile(filename, content) {
     fs.writeFile(filename, content, { flag: 'a+' }, err => {
@@ -156,11 +159,9 @@ function retrieveURIISSAFromDOI(dois = []) {
     // console.log("retrieveURIISSAFromDOI", dois)
     if(dois.length > 0) {
         const doisList = "\"" + dois.join("\" \"") + "\"";
-        // console.log(doisList)
+        console.log(doisList)
         const articleQuery = "prefix bibo: <http://purl.org/ontology/bibo/> prefix dct: <http://purl.org/dc/terms/> SELECT ?article ?doi { ?article <http://purl.org/ontology/bibo/doi> ?doi . VALUES ?doi { " + doisList + " } }";
-        // console.log(articleQuery)
         return sparqlQueryPromise(endpointISSA, articleQuery).then(sparqlQueryResults => {
-            // console.log(sparqlQueryResults.results.bindings)
             var results = [];
             sparqlQueryResults.results.bindings.forEach(citationDois => {
                 results.push(citationDois.article.value);
@@ -180,83 +181,231 @@ function retrieveISSAArticles(limit = 100) {
 function retrieveSemanticScholarArticleJSON(doi) {
     if(doi != undefined) {
         const apiQuery = "https://api.semanticscholar.org/graph/v1/paper/DOI:" + doi + "?fields=externalIds,corpusId,title,referenceCount,citationCount,isOpenAccess,openAccessPdf,citations,citations.title,citations.externalIds,citations.corpusId";
-        // console.log(apiQuery)
         return fetchJSONPromise(apiQuery);
     } else {
         throw new Error("No DOI given")
     }
 }
 
-const citoExtends = CITO("extends");
+const dctBibliographicCitation = DCT("bibliographicCitation");
+function generateSimpleCitationTriples(article1URI, article2URI) {
+    const artcle1Resource = $rdf.sym(article1URI);
+    const artcle2Resource = $rdf.sym(article2URI);
+    const citationStatement = new Statement(artcle1Resource, dctBibliographicCitation, artcle2Resource);
 
-function semanticScholarCitations() {
-var semanticscholarRDFStore = $rdf.graph();
-return retrieveISSAArticles(300).then(results => {
-    // console.log(results.results.bindings)
-    var doiSSPromises = [];
-    results.results.bindings.forEach(bindingItem => {
-        var articleUri = bindingItem.article.value;
-        const articleRDF = $rdf.sym(articleUri);
-        var doi = bindingItem.doi.value;
-        console.log(articleUri, doi)
-        doiSSPromises.push(retrieveSemanticScholarArticleJSON(doi).then(ssJsonObject => {
-            var ssDois = [];
-            if(ssJsonObject.citations != undefined ) {
-                ssJsonObject.citations.forEach(citationJsonObject => {
-                    // console.log(citationJsonObject)
-                    if(citationJsonObject.externalIds.DOI != undefined) {
-                        console.log(citationJsonObject.externalIds.DOI)
-                        console.log("citation", citationJsonObject.externalIds.DOI)
-                        ssDois.push(citationJsonObject.externalIds.DOI);
-                    }
-                })
-                console.log(ssDois)
-                return retrieveURIISSAFromDOI(ssDois).then(citationsUris => {
-                    // console.log(citationsUris)
-                    citationsUris.forEach(citationUri => {
-                        const citationRDF = $rdf.sym(citationUri);
-                        const citationStatement = new Statement(articleRDF, citoExtends, citationRDF)
-                        // console.log("ADDITION", citationStatement.toNT())
-                        semanticscholarRDFStore.add(citationStatement);
-                    })
-                    return;
-                }).catch(error => {
-                    console.error(error)
-                })
-            }
-        }));
-    })
-
-    Promise.allSettled(doiSSPromises).then(() => {
-        return serializeStoreToTurtlePromise(semanticscholarRDFStore).then(ttl => {
-            console.log(ttl);
-    })
-})
-        })
-.catch(error => {
-    console.error(error)
-})
+    return citationStatement;
 }
 
-semanticScholarCitations();
+// :citation a cito:Citation ;
+//     cito:hasCitingEntity :paper-a ;
+//     cito:hasCitationCharacterization cito:extends ;
+//     cito:hasCitedEntity :paper-b .
+function generateComplexCitationTriples(article1URI, article2URI, source) {
+    const article1Resource = $rdf.sym(article1URI);
+    const article2Resource = $rdf.sym(article2URI);
+    const citationResource = $rdf.sym(ISSA("citation/" + uuidv4()))
+    const generationDate = $rdf.lit(dayjs().toISOString(), undefined, XSD("datetime"));
+    const citationStatements = [
+        new Statement(citationResource, RDF("type"), CITO("Citation")),
+        new Statement(citationResource, CITO("hasCitingEntity"), article1Resource),
+        new Statement(citationResource, CITO("hasCitationCharacterization"), dctBibliographicCitation),
+        new Statement(citationResource, CITO("hasCitedEntity"), article2Resource),
+        new Statement(citationResource, PROV("generatedAtTime"), generationDate)
+    ];
+        const sourceResource = $rdf.sym(source);
+        citationStatements.push(new Statement(citationResource, PROV("wasAssociatedWith"), sourceResource));
+    return citationStatements;
+}
+
+function semanticScholarCitations(limit = 10) {
+    var semanticscholarRDFStore = $rdf.graph();
+    return retrieveISSAArticles(limit).then(results => {
+        var doiSSPromises = [];
+        results.results.bindings.forEach(bindingItem => {
+            var articleUri = bindingItem.article.value;
+            var doi = bindingItem.doi.value;
+            console.log(articleUri, doi)
+            doiSSPromises.push(retrieveSemanticScholarArticleJSON(doi).then(ssJsonObject => {
+                var ssDois = [];
+                console.log(ssJsonObject)
+                var externalIds = ssJsonObject.externalIds;
+                externalIds.url = ssJsonObject.url;
+                if(ssJsonObject.citations != undefined ) {
+                    ssJsonObject.citations.forEach(citationJsonObject => {
+                        if(citationJsonObject.externalIds != undefined && citationJsonObject.externalIds.DOI != undefined) {
+                            ssDois.push(citationJsonObject.externalIds.DOI);
+                        }
+                    })
+                    return retrieveURIISSAFromDOI(ssDois).then(citationsUris => {
+                        citationsUris.forEach(citationUri => {
+
+                            var citationTriples = generateComplexCitationTriples(articleUri, citationUri, "https://www.semanticscholar.org");
+                            citationTriples.push(generateSimpleCitationTriples(articleUri, citationUri, "https://www.semanticscholar.org"));
+
+                            if(externalIds.CorpusId != undefined) {
+                                var corpusIdResource = ISSA(md5(articleUri + externalIds.CorpusId));
+                                citationTriples.push(new Statement($rdf.sym(articleUri), SCHEMA("identifier"), corpusIdResource))
+                                citationTriples.push(new Statement(corpusIdResource, SCHEMA("value"), $rdf.lit(externalIds.CorpusId)))
+                                citationTriples.push(new Statement(corpusIdResource, RDFS("label"), $rdf.lit("CorpusId")))
+                                citationTriples.push(new Statement(corpusIdResource, SCHEMA("propertyID"), $rdf.sym("https://www.semanticscholar.org")))
+                            }
+                            if(externalIds.DBLP != undefined) {
+                                var corpusIdResource = ISSA(md5(articleUri + externalIds.DBLP));
+                                citationTriples.push(new Statement($rdf.sym(articleUri), SCHEMA("identifier"), corpusIdResource))
+                                citationTriples.push(new Statement(corpusIdResource, SCHEMA("value"), $rdf.lit(externalIds.DBLP)))
+                                citationTriples.push(new Statement(corpusIdResource, RDFS("label"), $rdf.lit("DBLP")))
+                                citationTriples.push(new Statement(corpusIdResource, SCHEMA("propertyID"), $rdf.sym("https://dblp.org")))
+                            }
+                            if(externalIds.ArXiv != undefined) {
+                                var corpusIdResource = ISSA(md5(articleUri + externalIds.ArXiv));
+                                citationTriples.push(new Statement($rdf.sym(articleUri), SCHEMA("identifier"), corpusIdResource))
+                                citationTriples.push(new Statement(corpusIdResource, SCHEMA("value"), $rdf.lit(externalIds.ArXiv)))
+                                citationTriples.push(new Statement(corpusIdResource, RDFS("label"), $rdf.lit("ArXiv")))
+                                citationTriples.push(new Statement(corpusIdResource, SCHEMA("propertyID"), $rdf.sym("https://arxiv.org/")))
+                            }
+                            if(externalIds.url != undefined) {
+                                citationTriples.push(new Statement($rdf.sym(articleUri), OWL("sameAs"), $rdf.sym(externalIds.url)))
+                            }
+
+                            console.log(citationTriples.map(triple => triple.toNT()))
+                            citationTriples.forEach(triple => {
+                                try{
+                                semanticscholarRDFStore.add(triple);
+                                } catch(error) {
+                                    console.error(triple.toNT());
+                                    console.error(error)
+                                    throw error;
+                                }
+                            })
+
+                        })
+                        return;
+                    }).catch(error => {
+                        console.error(error)
+                    })
+                }
+            }).catch(error => {
+                console.error(error)
+            }));
+        })
+
+        return Promise.allSettled(doiSSPromises).then(() => {
+            return serializeStoreToTurtlePromise(semanticscholarRDFStore)
+    }).then(ttl => {
+            writeFile("semanticScholar.ttl", ttl)
+        })
+            })
+    .catch(error => {
+        console.error(error)
+    })
+}
+
+// semanticScholarCitations(400).then(ttl => {
+//     writeFile("semanticScholar.ttl", ttl)
+// });
 
 function retrieveCrossRefArticleJSON(doi) {
     if(doi != undefined) {
         const apiQuery = "https://api.crossref.org/works/" + encodeURIComponent(doi) ;
-        // https://api.crossref.org/works/10.19182%2Fremvt.9739
-        // console.log(apiQuery)
         return fetchJSONPromise(apiQuery);
     } else {
         throw new Error("No DOI given")
     }
 }
 
-// retrieveCrossRefArticleJSON("10.19182/remvt.9739").then(json => {
-//     console.log(json)
-// }).catch(error => {
-//     console.error(error)
-// })
-// https://dblp.org/search/publ/api?
+
+function retrieveOpenAlexArticleJSONByDOI(doi) {
+    if(doi != undefined) {
+        const apiQuery = "https://api.openalex.org/works/https://doi.org/" + doi;
+        return fetchJSONPromise(apiQuery);
+    } else {
+        throw new Error("No DOI given")
+    }
+}
+
+
+function retrieveOpenAlexArticleJSONByOpenAlexID(id) {
+    if(id != undefined) {
+        const apiQuery = "https://api.openalex.org/works/" + id;
+        return fetchJSONPromise(apiQuery);
+    } else {
+        throw new Error("No DOI given")
+    }
+}
+
+
+function openAlexCitations(limit) {
+var openAlexRDFStore = $rdf.graph();
+return retrieveISSAArticles(limit).then(results => {
+    var doiOpenAlexPromises = [];
+    var articleReferencesMap = new Map();
+    results.results.bindings.forEach(bindingItem => {
+        var articleUri = bindingItem.article.value;
+        if(articleReferencesMap.get(articleUri) == undefined) {
+            articleReferencesMap.set(articleUri, [])
+        }
+        var doi = bindingItem.doi.value;
+        doiOpenAlexPromises.push(
+            retrieveOpenAlexArticleJSONByDOI(doi).then(json => {
+                if(json.referenced_works != undefined) {
+                    json.referenced_works.forEach(alexCitation => {
+                        articleReferencesMap.get(articleUri).push(alexCitation);
+                    })
+                }
+                if(json.ids != undefined) {
+                    if(json.ids.openalex != undefined) {
+                        openAlexRDFStore.add($rdf.sym(articleUri), OWL("sameAs"), $rdf.sym(json.ids.openalex))
+                    }
+                    if(json.ids.doi != undefined) {
+                        openAlexRDFStore.add($rdf.sym(articleUri), OWL("sameAs"), $rdf.sym(json.ids.doi))
+                    }
+                }
+            }).catch(error => {
+                console.error(error)
+            }))
+    })
+    Promise.allSettled(doiOpenAlexPromises).then(() => {
+        var openAlexReferencesPromises = [];
+        articleReferencesMap.forEach((references, articleUri) => {
+            references.forEach(reference => {
+                const referenceOpenAlexId = reference.replace("https://openalex.org/", "");
+                openAlexReferencesPromises.push(retrieveOpenAlexArticleJSONByOpenAlexID(referenceOpenAlexId).then(json => {
+                    const referenceDOI = json.doi;
+                    const doiId = referenceDOI.replace("https://doi.org/","")
+                    return retrieveURIISSAFromDOI([doiId]).then(articles => {
+                        if(articles.length > 0) {
+                            articles.forEach(citationUri => {
+                                const simpleCitationTriples = generateSimpleCitationTriples(articleUri, citationUri, "https://openalex.org/");
+                                const complexCitationTriples = generateComplexCitationTriples(articleUri, citationUri, "https://openalex.org/");
+                                console.log(complexCitationTriples.map(triple => triple.toNT()))
+                                openAlexRDFStore.add(simpleCitationTriples);
+                                openAlexRDFStore.addAll(complexCitationTriples);
+                            })
+                        } else {
+                            const simpleCitationTriples = generateSimpleCitationTriples(articleUri, referenceDOI, "https://openalex.org/");
+                            const complexCitationTriples = generateComplexCitationTriples(articleUri, referenceDOI, "https://openalex.org/");
+                            openAlexRDFStore.add(simpleCitationTriples);
+                            openAlexRDFStore.addAll(complexCitationTriples);
+                        }
+                        return;
+                    });
+                }))
+            })
+        })
+        return Promise.allSettled(openAlexReferencesPromises)
+    }).then(() => {
+        return serializeStoreToTurtlePromise(openAlexRDFStore).then(ttl => {
+            console.log(ttl)
+            writeFile("OpenAlex.ttl", ttl)
+            return;
+        })
+    });
+})
+}
+
+openAlexCitations(20).then(() => {
+    return semanticScholarCitations(20);
+})
 
 
             
@@ -264,10 +413,6 @@ function retrieveCrossRefArticleJSON(doi) {
 // # Direct form for a citation
 // :paper-a cito:extends :paper-b .
 // 
-// :citation a cito:Citation ;
-//     cito:hasCitingEntity :paper-a ;
-//     cito:hasCitationCharacterization cito:extends ;
-//     cito:hasCitedEntity :paper-b .
             // console.log(json);r(error)
 
 
