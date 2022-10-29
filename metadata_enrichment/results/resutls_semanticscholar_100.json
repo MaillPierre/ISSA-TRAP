@@ -1,0 +1,3391 @@
+{
+  "endpoint": "https://api.semanticscholar.org/graph/v1/",
+  "articles": [
+    {
+      "doi": "10.19182/remvt.9733",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Riad, Fouad",
+          "semanticScholar": "M. Khasmi",
+          "triple": "<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2096422001> ."
+        },
+        {
+          "issa": "Riad, Fouad",
+          "semanticScholar": "F. Riad",
+          "triple": "<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3785910> ."
+        },
+        {
+          "issa": "Barlet, J.P.",
+          "semanticScholar": "A. Safwate",
+          "triple": "<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/49757890> ."
+        },
+        {
+          "issa": "Riad, Fouad",
+          "semanticScholar": "M. Bengoumi",
+          "triple": "<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/46265443> ."
+        },
+        {
+          "issa": "Hidane, Kamel",
+          "semanticScholar": "K. Hidane",
+          "triple": "<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/21791135> ."
+        },
+        {
+          "issa": "Barlet, J.P.",
+          "semanticScholar": "M. Davicco",
+          "triple": "<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34708933> ."
+        },
+        {
+          "issa": "Riad, Fouad",
+          "semanticScholar": "V. Coxam",
+          "triple": "<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48938775> ."
+        },
+        {
+          "issa": "Barlet, J.P.",
+          "semanticScholar": "B. Faye",
+          "triple": "<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144282635> ."
+        },
+        {
+          "issa": "Barlet, J.P.",
+          "semanticScholar": "J. Barlet",
+          "triple": "<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/50310680> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.37370/raizes.1999.v.173",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Sabourin, Eric",
+          "semanticScholar": "E. Sabourin",
+          "triple": "<http://data-issa.cirad.fr/article/481473> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/66621755> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2008027",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Chillet, Marc",
+          "semanticScholar": "L. Bellaire",
+          "triple": "<http://data-issa.cirad.fr/article/546677> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/82937626> ."
+        },
+        {
+          "issa": "Chillet, Marc",
+          "semanticScholar": "M. Chillet",
+          "triple": "<http://data-issa.cirad.fr/article/546677> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6797551> ."
+        },
+        {
+          "issa": "Chillet, Marc",
+          "semanticScholar": "Y. Chilin-Charles",
+          "triple": "<http://data-issa.cirad.fr/article/546677> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1404892865> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1684/agr.2012.0548",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Jo\u00ebt, Thierry",
+          "semanticScholar": "Thierry Jo\u00ebt",
+          "triple": "<http://data-issa.cirad.fr/article/564549> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2072701287> ."
+        },
+        {
+          "issa": "Pot, David",
+          "semanticScholar": "David Pot",
+          "triple": "<http://data-issa.cirad.fr/article/564549> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3005827> ."
+        },
+        {
+          "issa": "Pot, David",
+          "semanticScholar": "Lucia Pires Ferreira",
+          "triple": "<http://data-issa.cirad.fr/article/564549> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2112396517> ."
+        },
+        {
+          "issa": "Pot, David",
+          "semanticScholar": "S. Dussert",
+          "triple": "<http://data-issa.cirad.fr/article/564549> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87092217> ."
+        },
+        {
+          "issa": "Marraccini, Pierre",
+          "semanticScholar": "Pierre Marraccini",
+          "triple": "<http://data-issa.cirad.fr/article/564549> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2055704063> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1684/agr.2013.0650",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Mieulet, Delphine",
+          "semanticScholar": "Delphine Mieulet",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2074688337> ."
+        },
+        {
+          "issa": "Meynard, Donaldo",
+          "semanticScholar": "D. Meynard",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2082055352> ."
+        },
+        {
+          "issa": "Petit, Julie",
+          "semanticScholar": "C. Sir\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/90954062> ."
+        },
+        {
+          "issa": "Petit, Julie",
+          "semanticScholar": "J. Petit",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/81151045> ."
+        },
+        {
+          "issa": "Breitler, Jean-Christophe",
+          "semanticScholar": "Jean-Christophe Breitler",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2086144793> ."
+        },
+        {
+          "issa": "Perin, Christophe",
+          "semanticScholar": "Christophe P\u00e9rin",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2053929844> ."
+        },
+        {
+          "issa": "Di\u00e9vart, Anne",
+          "semanticScholar": "Anne Dievart",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2074634698> ."
+        },
+        {
+          "issa": "Meynard, Donaldo",
+          "semanticScholar": "Fanchon Divol-Malgoire",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1437241783> ."
+        },
+        {
+          "issa": "Petit, Julie",
+          "semanticScholar": "B. Courtois",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2074330092> ."
+        },
+        {
+          "issa": "Petit, Julie",
+          "semanticScholar": "J. Verdeil",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/89598636> ."
+        },
+        {
+          "issa": "Gantet, Pascal",
+          "semanticScholar": "P. Gantet",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2094217651> ."
+        },
+        {
+          "issa": "Guiderdoni, Emmanuel",
+          "semanticScholar": "Emmanuel Guiderdoni",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2074681039> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1590/S0100-67622014000200017",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Chaix, Gilles",
+          "semanticScholar": "U. Belini",
+          "triple": "<http://data-issa.cirad.fr/article/573576> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4060411> ."
+        },
+        {
+          "issa": "Chaix, Gilles",
+          "semanticScholar": "M. K. Leite",
+          "triple": "<http://data-issa.cirad.fr/article/573576> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/35474354> ."
+        },
+        {
+          "issa": "Chaix, Gilles",
+          "semanticScholar": "M. T. Filho",
+          "triple": "<http://data-issa.cirad.fr/article/573576> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87060737> ."
+        },
+        {
+          "issa": "Chaix, Gilles",
+          "semanticScholar": "Gilles Chaix",
+          "triple": "<http://data-issa.cirad.fr/article/573576> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2072298505> ."
+        },
+        {
+          "issa": "Baudasse, Christine",
+          "semanticScholar": "Christine Baudasse",
+          "triple": "<http://data-issa.cirad.fr/article/573576> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2080724339> ."
+        },
+        {
+          "issa": "Lem\u00e9nager, Nicolas",
+          "semanticScholar": "Nicolas Lem\u00e9nager",
+          "triple": "<http://data-issa.cirad.fr/article/573576> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2093100806> ."
+        },
+        {
+          "issa": "Th\u00e9venon, Marie-France",
+          "semanticScholar": "Marie-France Th\u00e9venon",
+          "triple": "<http://data-issa.cirad.fr/article/573576> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2091447075> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.4000/economierurale.5813",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Lemeilleur, Sylvaine",
+          "semanticScholar": "Sylvaine Lemeilleur",
+          "triple": "<http://data-issa.cirad.fr/article/588487> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2093265075> ."
+        },
+        {
+          "issa": "Allaire, Gilles",
+          "semanticScholar": "G. Allaire",
+          "triple": "<http://data-issa.cirad.fr/article/588487> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/46746318> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1186/s12862-022-01977-z",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Boinot, S\u00e9bastien",
+          "semanticScholar": "S\u00e9bastien Boinot",
+          "triple": "<http://data-issa.cirad.fr/article/600375> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/148015708> ."
+        },
+        {
+          "issa": "Barkaoui, Karim",
+          "semanticScholar": "Karim Barkaoui",
+          "triple": "<http://data-issa.cirad.fr/article/600375> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/35800807> ."
+        },
+        {
+          "issa": "Meziere, Delphine",
+          "semanticScholar": "D. M\u00e9zi\u00e8re",
+          "triple": "<http://data-issa.cirad.fr/article/600375> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/22085402> ."
+        },
+        {
+          "issa": "Barkaoui, Karim",
+          "semanticScholar": "P. Lauri",
+          "triple": "<http://data-issa.cirad.fr/article/600375> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/143728568> ."
+        },
+        {
+          "issa": "Barkaoui, Karim",
+          "semanticScholar": "J. Sarthou",
+          "triple": "<http://data-issa.cirad.fr/article/600375> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87560397> ."
+        },
+        {
+          "issa": "Alignier, Audrey",
+          "semanticScholar": "A. Alignier",
+          "triple": "<http://data-issa.cirad.fr/article/600375> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2051249> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1080/26395916.2022.2043940",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "M\u00fanera-Rold\u00e1n, Claudia",
+          "semanticScholar": "Claudia M\u00fanera-Rold\u00e1n",
+          "triple": "<http://data-issa.cirad.fr/article/600429> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2004933768> ."
+        },
+        {
+          "issa": "Wyborn, Carina",
+          "semanticScholar": "M. Colloff",
+          "triple": "<http://data-issa.cirad.fr/article/600429> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4956573> ."
+        },
+        {
+          "issa": "Locatelli, Bruno",
+          "semanticScholar": "B. Locatelli",
+          "triple": "<http://data-issa.cirad.fr/article/600429> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/50042614> ."
+        },
+        {
+          "issa": "Wyborn, Carina",
+          "semanticScholar": "C. Wyborn",
+          "triple": "<http://data-issa.cirad.fr/article/600429> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144761883> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.20870/productions-animales.2000.13.4.3784",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Doreau, Michel",
+          "semanticScholar": "M. Doreau",
+          "triple": "<http://data-issa.cirad.fr/article/476911> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2070545329> ."
+        },
+        {
+          "issa": "Grimaud, Patrice",
+          "semanticScholar": "P. Grimaud",
+          "triple": "<http://data-issa.cirad.fr/article/476911> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/50456535> ."
+        },
+        {
+          "issa": "Doreau, Michel",
+          "semanticScholar": "B. Michalet-Doreau",
+          "triple": "<http://data-issa.cirad.fr/article/476911> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2080377709> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.19182/remvt.9734",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Nasser, B.",
+          "semanticScholar": "Boubker Nasser",
+          "triple": "<http://data-issa.cirad.fr/article/477462> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2058910787> ."
+        },
+        {
+          "issa": "Wolff, R.L.",
+          "semanticScholar": "R. Wolff",
+          "triple": "<http://data-issa.cirad.fr/article/477462> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145235178> ."
+        },
+        {
+          "issa": "Nasser, B.",
+          "semanticScholar": "M. S. E. Kebbaj",
+          "triple": "<http://data-issa.cirad.fr/article/477462> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/21784766> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1590/S0103-49792010000100010",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Sabourin, Eric",
+          "semanticScholar": "E. Sabourin",
+          "triple": "<http://data-issa.cirad.fr/article/556221> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/66621755> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.37370/raizes.2005.v24.244",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Sabourin, Eric",
+          "semanticScholar": "E. Sabourin",
+          "triple": "<http://data-issa.cirad.fr/article/537503> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/66621755> ."
+        },
+        {
+          "issa": "Caron, Patrick",
+          "semanticScholar": "Patrick Caron",
+          "triple": "<http://data-issa.cirad.fr/article/537503> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2058012612> ."
+        },
+        {
+          "issa": "Tonneau, Jean-Philippe",
+          "semanticScholar": "Jean-Philippe Tonneau",
+          "triple": "<http://data-issa.cirad.fr/article/537503> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2071291616> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1684/agr.2009.0370",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Daniel, Maud",
+          "semanticScholar": "M. Daniel",
+          "triple": "<http://data-issa.cirad.fr/article/554052> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/88232314> ."
+        },
+        {
+          "issa": "Bricas, Nicolas",
+          "semanticScholar": "N. Bricas",
+          "triple": "<http://data-issa.cirad.fr/article/554052> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/12826966> ."
+        },
+        {
+          "issa": "Sirieix, Lucie",
+          "semanticScholar": "L. Sirieix",
+          "triple": "<http://data-issa.cirad.fr/article/554052> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2071035849> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.3917/eg.301.0013",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Bonnefoy, Jean-Luc",
+          "semanticScholar": "Jean-Luc Bonnefoy",
+          "triple": "<http://data-issa.cirad.fr/article/479772> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/11022819> ."
+        },
+        {
+          "issa": "Bousquet, Fran\u00e7ois",
+          "semanticScholar": "Fran\u00e7ois Bousquet",
+          "triple": "<http://data-issa.cirad.fr/article/479772> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48314520> ."
+        },
+        {
+          "issa": "Rouchier, Juliette",
+          "semanticScholar": "J. Rouchier",
+          "triple": "<http://data-issa.cirad.fr/article/479772> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2089314799> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.ijid.2018.11.146",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Thongyan, Suporn",
+          "semanticScholar": "S. Thongyuan",
+          "triple": "<http://data-issa.cirad.fr/article/592919> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4810517> ."
+        },
+        {
+          "issa": "Tulayakul, Phitsanu",
+          "semanticScholar": "P. Tulayakul",
+          "triple": "<http://data-issa.cirad.fr/article/592919> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/15673055> ."
+        },
+        {
+          "issa": "Ruenghiran, C.",
+          "semanticScholar": "C. Ruenghiran",
+          "triple": "<http://data-issa.cirad.fr/article/592919> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/90308170> ."
+        },
+        {
+          "issa": "Khuntamoon, T.",
+          "semanticScholar": "T. Khuntamoon",
+          "triple": "<http://data-issa.cirad.fr/article/592919> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4024971> ."
+        },
+        {
+          "issa": "Viriyarumpa, S.",
+          "semanticScholar": "S. Viriyarumpa",
+          "triple": "<http://data-issa.cirad.fr/article/592919> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/84036033> ."
+        },
+        {
+          "issa": "Binot, Aur\u00e9lie",
+          "semanticScholar": "A. Binot",
+          "triple": "<http://data-issa.cirad.fr/article/592919> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5713689> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1023/A:1001880030275",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Dolezelova, M.",
+          "semanticScholar": "M. Dolez\u0306elov\u00e1",
+          "triple": "<http://data-issa.cirad.fr/article/263679> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5329429> ."
+        },
+        {
+          "issa": "Valarik, M.",
+          "semanticScholar": "M. Val\u00e1rik",
+          "triple": "<http://data-issa.cirad.fr/article/263679> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4826689> ."
+        },
+        {
+          "issa": "Swennen, R.",
+          "semanticScholar": "R. Swennen",
+          "triple": "<http://data-issa.cirad.fr/article/263679> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3269902> ."
+        },
+        {
+          "issa": "Valarik, M.",
+          "semanticScholar": "J. Horry",
+          "triple": "<http://data-issa.cirad.fr/article/263679> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/108550523> ."
+        },
+        {
+          "issa": "Valarik, M.",
+          "semanticScholar": "J. Dole\u017eel",
+          "triple": "<http://data-issa.cirad.fr/article/263679> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2591993> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1029/96JD01621",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "B\u00e9gu\u00e9, Agn\u00e8s",
+          "semanticScholar": "A. B\u00e9gu\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/388319> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/49449121> ."
+        },
+        {
+          "issa": "Myneni, R.",
+          "semanticScholar": "R. Myneni",
+          "triple": "<http://data-issa.cirad.fr/article/388319> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/7543846> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1128/AEM.60.11.3974-3980.1994",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "A. Galiana",
+          "triple": "<http://data-issa.cirad.fr/article/388623> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/30040878> ."
+        },
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "Y. Prin",
+          "triple": "<http://data-issa.cirad.fr/article/388623> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4042349> ."
+        },
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "B. Mallet",
+          "triple": "<http://data-issa.cirad.fr/article/388623> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/92069621> ."
+        },
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "G. Gnahoua",
+          "triple": "<http://data-issa.cirad.fr/article/388623> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3879110> ."
+        },
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "M. Poitel",
+          "triple": "<http://data-issa.cirad.fr/article/388623> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/12733430> ."
+        },
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "H. G. Diem",
+          "triple": "<http://data-issa.cirad.fr/article/388623> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2236971> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1128/AEM.61.12.4343-4347.1995",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Bossy, J.P.",
+          "semanticScholar": "C. Itoua-Apoyolo",
+          "triple": "<http://data-issa.cirad.fr/article/390900> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1438848894> ."
+        },
+        {
+          "issa": "Drif, Latifa",
+          "semanticScholar": "L. Drif",
+          "triple": "<http://data-issa.cirad.fr/article/390900> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/12239665> ."
+        },
+        {
+          "issa": "Bossy, J.P.",
+          "semanticScholar": "J. Vassal",
+          "triple": "<http://data-issa.cirad.fr/article/390900> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/16814138> ."
+        },
+        {
+          "issa": "Drif, Latifa",
+          "semanticScholar": "H. Debarjac",
+          "triple": "<http://data-issa.cirad.fr/article/390900> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/15313700> ."
+        },
+        {
+          "issa": "Bossy, J.P.",
+          "semanticScholar": "J. Bossy",
+          "triple": "<http://data-issa.cirad.fr/article/390900> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/32524468> ."
+        },
+        {
+          "issa": "Bossy, J.P.",
+          "semanticScholar": "F. Leclant",
+          "triple": "<http://data-issa.cirad.fr/article/390900> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/89915379> ."
+        },
+        {
+          "issa": "Frutos, Roger",
+          "semanticScholar": "R. Frutos",
+          "triple": "<http://data-issa.cirad.fr/article/390900> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48125686> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1007/BF00202672",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Riccardi, F.",
+          "semanticScholar": "M. Bon",
+          "triple": "<http://data-issa.cirad.fr/article/391121> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48489912> ."
+        },
+        {
+          "issa": "Riccardi, F.",
+          "semanticScholar": "F. Riccardi",
+          "triple": "<http://data-issa.cirad.fr/article/391121> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2076966800> ."
+        },
+        {
+          "issa": "Monteuuis, Olivier",
+          "semanticScholar": "O. Monteuuis",
+          "triple": "<http://data-issa.cirad.fr/article/391121> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4370435> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1128/AEM.61.6.2086-2092.1995",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Luo, K.",
+          "semanticScholar": "W. Moar",
+          "triple": "<http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4752743> ."
+        },
+        {
+          "issa": "Luo, K.",
+          "semanticScholar": "M. Pusztai\u2010Carey",
+          "triple": "<http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1399196284> ."
+        },
+        {
+          "issa": "Luo, K.",
+          "semanticScholar": "H. van Faassen",
+          "triple": "<http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4837507> ."
+        },
+        {
+          "issa": "Bosch, D.",
+          "semanticScholar": "D. Bosch",
+          "triple": "<http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144787830> ."
+        },
+        {
+          "issa": "Luo, K.",
+          "semanticScholar": "R. Frutos",
+          "triple": "<http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48125686> ."
+        },
+        {
+          "issa": "Luo, K.",
+          "semanticScholar": "C. Rang",
+          "triple": "<http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3366008> ."
+        },
+        {
+          "issa": "Luo, K.",
+          "semanticScholar": "K. Luo",
+          "triple": "<http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2053593382> ."
+        },
+        {
+          "issa": "Adang, M.J.",
+          "semanticScholar": "M. Adang",
+          "triple": "<http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5848906> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1128/AEM.58.2.507-512.1992",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Chang, C.",
+          "semanticScholar": "C. Chang",
+          "triple": "<http://data-issa.cirad.fr/article/391566> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2107451423> ."
+        },
+        {
+          "issa": "Dal, S.M.",
+          "semanticScholar": "S. Dai",
+          "triple": "<http://data-issa.cirad.fr/article/391566> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/9848375> ."
+        },
+        {
+          "issa": "Frutos, Roger",
+          "semanticScholar": "R. Frutos",
+          "triple": "<http://data-issa.cirad.fr/article/391566> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48125686> ."
+        },
+        {
+          "issa": "Federici, B.A.",
+          "semanticScholar": "B. Federici",
+          "triple": "<http://data-issa.cirad.fr/article/391566> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4169952> ."
+        },
+        {
+          "issa": "Gill, S.S.",
+          "semanticScholar": "S. Gill",
+          "triple": "<http://data-issa.cirad.fr/article/391566> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1837204> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1128/aem.57.3.871-874.1991",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "Y. Prin",
+          "triple": "<http://data-issa.cirad.fr/article/416918> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2071059573> ."
+        },
+        {
+          "issa": "Duhoux, Emile",
+          "semanticScholar": "E. Duhoux",
+          "triple": "<http://data-issa.cirad.fr/article/416918> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2075183746> ."
+        },
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "H. G. Diem",
+          "triple": "<http://data-issa.cirad.fr/article/416918> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2084972088> ."
+        },
+        {
+          "issa": "Roederer, Yves",
+          "semanticScholar": "Y. Roederer",
+          "triple": "<http://data-issa.cirad.fr/article/416918> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2095114057> ."
+        },
+        {
+          "issa": "Dommergues, Y.R.",
+          "semanticScholar": "Y. Dommergues",
+          "triple": "<http://data-issa.cirad.fr/article/416918> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144733678> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1111/j.1749-6632.1996.tb53509.x",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Van Vliet, A.H.M.",
+          "semanticScholar": "A. Vliet",
+          "triple": "<http://data-issa.cirad.fr/article/465062> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1977027413> ."
+        },
+        {
+          "issa": "Jongejan, Frans",
+          "semanticScholar": "B. A. Zeijst",
+          "triple": "<http://data-issa.cirad.fr/article/465062> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/90002693> ."
+        },
+        {
+          "issa": "Camus, Emmanuel",
+          "semanticScholar": "E. Camus",
+          "triple": "<http://data-issa.cirad.fr/article/465062> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3025514> ."
+        },
+        {
+          "issa": "Mahan, Suman M.",
+          "semanticScholar": "S. Mahan",
+          "triple": "<http://data-issa.cirad.fr/article/465062> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4789672> ."
+        },
+        {
+          "issa": "Martinez, Dominique",
+          "semanticScholar": "D. Martinez",
+          "triple": "<http://data-issa.cirad.fr/article/465062> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145985488> ."
+        },
+        {
+          "issa": "Jongejan, Frans",
+          "semanticScholar": "F. Jongejan",
+          "triple": "<http://data-issa.cirad.fr/article/465062> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6633039> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1046/j.1365-3059.2000.00516.x",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Chillet, Marc",
+          "semanticScholar": "L. Bellaire",
+          "triple": "<http://data-issa.cirad.fr/article/476782> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/82937626> ."
+        },
+        {
+          "issa": "Chillet, Marc",
+          "semanticScholar": "M. Chillet",
+          "triple": "<http://data-issa.cirad.fr/article/476782> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6797551> ."
+        },
+        {
+          "issa": "Dubois, C\u00e9cile",
+          "semanticScholar": "C. Dubois",
+          "triple": "<http://data-issa.cirad.fr/article/476782> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/71292369> ."
+        },
+        {
+          "issa": "Mourichon, Xavier",
+          "semanticScholar": "X. Mourichon",
+          "triple": "<http://data-issa.cirad.fr/article/476782> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2102119966> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/forest:19980803",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Saint Andr\u00e9, Laurent",
+          "semanticScholar": "Laurent Saint-Andr\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/476903> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2070994602> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.19182/remvt.9739",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Kaufmann, B.A.",
+          "semanticScholar": "B. Kaufmann",
+          "triple": "<http://data-issa.cirad.fr/article/477479> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145274041> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.19182/remvt.9740",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Dessalegne, D.",
+          "semanticScholar": "D. Dessalegne",
+          "triple": "<http://data-issa.cirad.fr/article/477481> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/107606587> ."
+        },
+        {
+          "issa": "Boardman, S.I.",
+          "semanticScholar": "S. Boardman",
+          "triple": "<http://data-issa.cirad.fr/article/477481> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/14396109> ."
+        },
+        {
+          "issa": "Dein, F.J.",
+          "semanticScholar": "F. J. Dein",
+          "triple": "<http://data-issa.cirad.fr/article/477481> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/82909438> ."
+        },
+        {
+          "issa": "Bourne, D.C.",
+          "semanticScholar": "D. Bourne",
+          "triple": "<http://data-issa.cirad.fr/article/477481> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/117924675> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.19182/remvt.9746",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Younan, M.",
+          "semanticScholar": "M. Younan",
+          "triple": "<http://data-issa.cirad.fr/article/477501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/114162209> ."
+        },
+        {
+          "issa": "Ali, Z.",
+          "semanticScholar": "Z. Ali",
+          "triple": "<http://data-issa.cirad.fr/article/477501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/40256911> ."
+        },
+        {
+          "issa": "M\u00fcller, W.",
+          "semanticScholar": "W. M\u00fcller",
+          "triple": "<http://data-issa.cirad.fr/article/477501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/148354625> ."
+        },
+        {
+          "issa": "Bornstein, S.",
+          "semanticScholar": "S. Bornstein",
+          "triple": "<http://data-issa.cirad.fr/article/477501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47752568> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.19182/remvt.9747",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Khalafalla, Abdelmelik Ibrahim",
+          "semanticScholar": "A. Khalafalla",
+          "triple": "<http://data-issa.cirad.fr/article/477502> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34964910> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1128/AEM.66.12.5437-5447.2000",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "C. Chaintreuil",
+          "triple": "<http://data-issa.cirad.fr/article/477831> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3561124> ."
+        },
+        {
+          "issa": "Giraud, Eric",
+          "semanticScholar": "E. Giraud",
+          "triple": "<http://data-issa.cirad.fr/article/477831> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2047465> ."
+        },
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "Y. Prin",
+          "triple": "<http://data-issa.cirad.fr/article/477831> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4042349> ."
+        },
+        {
+          "issa": "Lorquin, Jean",
+          "semanticScholar": "J. Lorquin",
+          "triple": "<http://data-issa.cirad.fr/article/477831> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6430422> ."
+        },
+        {
+          "issa": "B\u00e2, Amadou",
+          "semanticScholar": "A. B\u00e2",
+          "triple": "<http://data-issa.cirad.fr/article/477831> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87358946> ."
+        },
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "M. Gillis",
+          "triple": "<http://data-issa.cirad.fr/article/477831> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144925434> ."
+        },
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "P. de Lajudie",
+          "triple": "<http://data-issa.cirad.fr/article/477831> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/113917074> ."
+        },
+        {
+          "issa": "Prin, Yves",
+          "semanticScholar": "B. Dreyfus",
+          "triple": "<http://data-issa.cirad.fr/article/477831> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47728022> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1017/S0950268801005465",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Gonzague, M.",
+          "semanticScholar": "M. Gonzague",
+          "triple": "<http://data-issa.cirad.fr/article/480109> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/14601574> ."
+        },
+        {
+          "issa": "Burger, C.",
+          "semanticScholar": "F. Roger",
+          "triple": "<http://data-issa.cirad.fr/article/480109> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34365289> ."
+        },
+        {
+          "issa": "Bastos, A.",
+          "semanticScholar": "A. Bastos",
+          "triple": "<http://data-issa.cirad.fr/article/480109> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145841315> ."
+        },
+        {
+          "issa": "Burger, C.",
+          "semanticScholar": "C. Burger",
+          "triple": "<http://data-issa.cirad.fr/article/480109> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/113978957> ."
+        },
+        {
+          "issa": "Randriamparany, Tantely",
+          "semanticScholar": "T. Randriamparany",
+          "triple": "<http://data-issa.cirad.fr/article/480109> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47456512> ."
+        },
+        {
+          "issa": "Smondack, S.",
+          "semanticScholar": "S. Smondack",
+          "triple": "<http://data-issa.cirad.fr/article/480109> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6171933> ."
+        },
+        {
+          "issa": "Burger, C.",
+          "semanticScholar": "C. Cruci\u00e8re",
+          "triple": "<http://data-issa.cirad.fr/article/480109> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5302220> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.19182/remvt.9707",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Wesonga, H.O.",
+          "semanticScholar": "H. Wesonga",
+          "triple": "<http://data-issa.cirad.fr/article/481836> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6715747> ."
+        },
+        {
+          "issa": "Thiaucourt, Fran\u00e7ois",
+          "semanticScholar": "F. Thiaucourt",
+          "triple": "<http://data-issa.cirad.fr/article/481836> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3149275> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/ocl.2001.0659",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Ollivier, Jean",
+          "semanticScholar": "J. Ollivier",
+          "triple": "<http://data-issa.cirad.fr/article/488770> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/82282505> ."
+        },
+        {
+          "issa": "Akus, W.",
+          "semanticScholar": "W. Akus",
+          "triple": "<http://data-issa.cirad.fr/article/488770> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87648356> ."
+        },
+        {
+          "issa": "Ollivier, Jean",
+          "semanticScholar": "L. Beaudoin\u2010Ollivier",
+          "triple": "<http://data-issa.cirad.fr/article/488770> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1403161447> ."
+        },
+        {
+          "issa": "Bonneau, Xavier",
+          "semanticScholar": "X. Bonneau",
+          "triple": "<http://data-issa.cirad.fr/article/488770> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87154115> ."
+        },
+        {
+          "issa": "Kakul, Titus",
+          "semanticScholar": "T. Kakul",
+          "triple": "<http://data-issa.cirad.fr/article/488770> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/14551857> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1093/ps/80.6.703",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Wang, C.T.",
+          "semanticScholar": "J. Poivey",
+          "triple": "<http://data-issa.cirad.fr/article/508870> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4664732> ."
+        },
+        {
+          "issa": "Wang, C.T.",
+          "semanticScholar": "Y. S. Cheng",
+          "triple": "<http://data-issa.cirad.fr/article/508870> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2107295144> ."
+        },
+        {
+          "issa": "Rouvier, Roger",
+          "semanticScholar": "R. Rouvier",
+          "triple": "<http://data-issa.cirad.fr/article/508870> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2075991656> ."
+        },
+        {
+          "issa": "Tai, Chein",
+          "semanticScholar": "C. Tai",
+          "triple": "<http://data-issa.cirad.fr/article/508870> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/71205378> ."
+        },
+        {
+          "issa": "Wang, C.T.",
+          "semanticScholar": "C. T. Wang",
+          "triple": "<http://data-issa.cirad.fr/article/508870> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47073888> ."
+        },
+        {
+          "issa": "Wang, C.T.",
+          "semanticScholar": "H. L. Liu",
+          "triple": "<http://data-issa.cirad.fr/article/508870> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2150678235> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.19182/remvt.9774",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Woubit, Salah",
+          "semanticScholar": "S. Woubit",
+          "triple": "<http://data-issa.cirad.fr/article/509633> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/16123845> ."
+        },
+        {
+          "issa": "Bayleyegn, M.",
+          "semanticScholar": "M. Bayleyegn",
+          "triple": "<http://data-issa.cirad.fr/article/509633> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/15499890> ."
+        },
+        {
+          "issa": "Bonnet, Pascal",
+          "semanticScholar": "P. Bonnet",
+          "triple": "<http://data-issa.cirad.fr/article/509633> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48843792> ."
+        },
+        {
+          "issa": "Jean-Baptiste, S.",
+          "semanticScholar": "S. Jean-Baptiste",
+          "triple": "<http://data-issa.cirad.fr/article/509633> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1479146245> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2002028",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Varoquaux, Patrick",
+          "semanticScholar": "P. Varoquaux",
+          "triple": "<http://data-issa.cirad.fr/article/510768> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87844132> ."
+        },
+        {
+          "issa": "Self, Guy",
+          "semanticScholar": "B. Gouble",
+          "triple": "<http://data-issa.cirad.fr/article/510768> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6187467> ."
+        },
+        {
+          "issa": "Ducamp, Marie-Noelle",
+          "semanticScholar": "Marie-Noelle Ducamp",
+          "triple": "<http://data-issa.cirad.fr/article/510768> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87466328> ."
+        },
+        {
+          "issa": "Self, Guy",
+          "semanticScholar": "G. Self",
+          "triple": "<http://data-issa.cirad.fr/article/510768> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/50414025> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1046/j.1364-3703.2002.00134.x",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Randig, Onivaldo",
+          "semanticScholar": "O. Randig",
+          "triple": "<http://data-issa.cirad.fr/article/511152> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/9921002> ."
+        },
+        {
+          "issa": "Bongiovanni, Michel",
+          "semanticScholar": "M. Bongiovanni",
+          "triple": "<http://data-issa.cirad.fr/article/511152> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/14807599> ."
+        },
+        {
+          "issa": "Randig, Onivaldo",
+          "semanticScholar": "R. Carneiro",
+          "triple": "<http://data-issa.cirad.fr/article/511152> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145415052> ."
+        },
+        {
+          "issa": "Sarah, Jean-Louis",
+          "semanticScholar": "J. Sarah",
+          "triple": "<http://data-issa.cirad.fr/article/511152> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5436373> ."
+        },
+        {
+          "issa": "Sarah, Jean-Louis",
+          "semanticScholar": "P. Castagnone-Sereno",
+          "triple": "<http://data-issa.cirad.fr/article/511152> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1397992007> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/ocl.2003.0232",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Dhuique-Mayer, Claudie",
+          "semanticScholar": "C. Dhuique-Mayer",
+          "triple": "<http://data-issa.cirad.fr/article/515692> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1397406529> ."
+        },
+        {
+          "issa": "Villarreal, Lorena",
+          "semanticScholar": "L. Villarreal",
+          "triple": "<http://data-issa.cirad.fr/article/515692> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2055960403> ."
+        },
+        {
+          "issa": "Caro, Yanis",
+          "semanticScholar": "Y. Caro",
+          "triple": "<http://data-issa.cirad.fr/article/515692> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48988272> ."
+        },
+        {
+          "issa": "Caro, Yanis",
+          "semanticScholar": "J. Ruales",
+          "triple": "<http://data-issa.cirad.fr/article/515692> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3468381> ."
+        },
+        {
+          "issa": "Villeneuve, Pierre",
+          "semanticScholar": "P. Villeneuve",
+          "triple": "<http://data-issa.cirad.fr/article/515692> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145234148> ."
+        },
+        {
+          "issa": "Pina, Michel",
+          "semanticScholar": "M. Pina",
+          "triple": "<http://data-issa.cirad.fr/article/515692> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144057606> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1093/ps/81.8.1243",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Deumier, Fran\u00e7ois",
+          "semanticScholar": "F. Deumier",
+          "triple": "<http://data-issa.cirad.fr/article/516404> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/14286818> ."
+        },
+        {
+          "issa": "Collignan, Antoine",
+          "semanticScholar": "A. Collignan",
+          "triple": "<http://data-issa.cirad.fr/article/516404> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2068177> ."
+        },
+        {
+          "issa": "Bohuon, Philippe",
+          "semanticScholar": "P. Bohuon",
+          "triple": "<http://data-issa.cirad.fr/article/516404> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/11319240> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.19182/remvt.9868",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Cardinale, Eric",
+          "semanticScholar": "E. Cardinale",
+          "triple": "<http://data-issa.cirad.fr/article/519928> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4559089> ."
+        },
+        {
+          "issa": "Tall, Fatou",
+          "semanticScholar": "Jean David Perrier Gros-Claude",
+          "triple": "<http://data-issa.cirad.fr/article/519928> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1417705229> ."
+        },
+        {
+          "issa": "Tall, Fatou",
+          "semanticScholar": "F. Tall",
+          "triple": "<http://data-issa.cirad.fr/article/519928> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/49596044> ."
+        },
+        {
+          "issa": "Tall, Fatou",
+          "semanticScholar": "M. Cisse",
+          "triple": "<http://data-issa.cirad.fr/article/519928> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47042192> ."
+        },
+        {
+          "issa": "Tall, Fatou",
+          "semanticScholar": "E. F. Gu\u00e8ye",
+          "triple": "<http://data-issa.cirad.fr/article/519928> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/40457548> ."
+        },
+        {
+          "issa": "Salvat, Gilles",
+          "semanticScholar": "G. Salvat",
+          "triple": "<http://data-issa.cirad.fr/article/519928> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3588173> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.19182/remvt.9866",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Asongwed-Awa, Anastasia",
+          "semanticScholar": "A. Asongwed-Awa",
+          "triple": "<http://data-issa.cirad.fr/article/521315> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1403764930> ."
+        },
+        {
+          "issa": "Abakar, Oumarou",
+          "semanticScholar": "Oumarou Abakar",
+          "triple": "<http://data-issa.cirad.fr/article/521315> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2105178581> ."
+        },
+        {
+          "issa": "Vall, Eric",
+          "semanticScholar": "E. Vall",
+          "triple": "<http://data-issa.cirad.fr/article/521315> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/7012586> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.37833/cord.v20i02.392",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Philippe, Ren\u00e9",
+          "semanticScholar": "R. Philippe",
+          "triple": "<http://data-issa.cirad.fr/article/522063> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/39804111> ."
+        },
+        {
+          "issa": "Philippe, Ren\u00e9",
+          "semanticScholar": "S. Dery",
+          "triple": "<http://data-issa.cirad.fr/article/522063> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/40476392> ."
+        },
+        {
+          "issa": "Nkansah Poku, Joe",
+          "semanticScholar": "Joe Nkansah Poku",
+          "triple": "<http://data-issa.cirad.fr/article/522063> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/90276176> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.37833/cord.v20i02.387",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Mialet-Serra, Isabelle",
+          "semanticScholar": "I. Mialet-Serra",
+          "triple": "<http://data-issa.cirad.fr/article/522074> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1401490040> ."
+        },
+        {
+          "issa": "Bonneau, Xavier",
+          "semanticScholar": "X. Bonneau",
+          "triple": "<http://data-issa.cirad.fr/article/522074> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87154115> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1029/2003JD003430",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Reichstein, Markus",
+          "semanticScholar": "M. Reichstein",
+          "triple": "<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2530948> ."
+        },
+        {
+          "issa": "Rambal, Serge",
+          "semanticScholar": "J. Tenhunen",
+          "triple": "<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34774218> ."
+        },
+        {
+          "issa": "Roupsard, Olivier",
+          "semanticScholar": "O. Roupsard",
+          "triple": "<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1835061> ."
+        },
+        {
+          "issa": "Rambal, Serge",
+          "semanticScholar": "J. Ourcival",
+          "triple": "<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4852473> ."
+        },
+        {
+          "issa": "Rambal, Serge",
+          "semanticScholar": "S. Rambal",
+          "triple": "<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3084195> ."
+        },
+        {
+          "issa": "Miglietta, Franco",
+          "semanticScholar": "F. Miglietta",
+          "triple": "<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/50682775> ."
+        },
+        {
+          "issa": "Peressotti, Alessandro",
+          "semanticScholar": "A. Peressotti",
+          "triple": "<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6004171> ."
+        },
+        {
+          "issa": "Pecchiari, Marco",
+          "semanticScholar": "M. Pecchiari",
+          "triple": "<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/88980159> ."
+        },
+        {
+          "issa": "Tirone, Giampiero",
+          "semanticScholar": "G. Tirone",
+          "triple": "<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47368245> ."
+        },
+        {
+          "issa": "Valentini, Riccardo",
+          "semanticScholar": "R. Valentini",
+          "triple": "<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/32349497> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1017/S0950268805003729",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Diop, M.",
+          "semanticScholar": "M. Diop",
+          "triple": "<http://data-issa.cirad.fr/article/528358> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47373559> ."
+        },
+        {
+          "issa": "Sarr, J.",
+          "semanticScholar": "J. Sarr",
+          "triple": "<http://data-issa.cirad.fr/article/528358> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48336686> ."
+        },
+        {
+          "issa": "Diop, M.",
+          "semanticScholar": "G. Libeau",
+          "triple": "<http://data-issa.cirad.fr/article/528358> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3853960> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2005027",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Franquin, S\u00e9verine",
+          "semanticScholar": "S\u00e9verine Franquin",
+          "triple": "<http://data-issa.cirad.fr/article/528645> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/88686945> ."
+        },
+        {
+          "issa": "Marcelin, Odile",
+          "semanticScholar": "O. Marcelin",
+          "triple": "<http://data-issa.cirad.fr/article/528645> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/11927181> ."
+        },
+        {
+          "issa": "Aurore, Guyl\u00e8ne",
+          "semanticScholar": "G. Aurore",
+          "triple": "<http://data-issa.cirad.fr/article/528645> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6239759> ."
+        },
+        {
+          "issa": "Reynes, Max",
+          "semanticScholar": "M. Reynes",
+          "triple": "<http://data-issa.cirad.fr/article/528645> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/15031436> ."
+        },
+        {
+          "issa": "Reynes, Max",
+          "semanticScholar": "J. Brillouet",
+          "triple": "<http://data-issa.cirad.fr/article/528645> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87325138> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.37833/cord.v21i01.399",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Nuertey, B.N.",
+          "semanticScholar": "S. Dery",
+          "triple": "<http://data-issa.cirad.fr/article/529913> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/40476392> ."
+        },
+        {
+          "issa": "Nuertey, B.N.",
+          "semanticScholar": "J. Owusu-Nipah",
+          "triple": "<http://data-issa.cirad.fr/article/529913> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1436385739> ."
+        },
+        {
+          "issa": "Andoh-Mensah, E.",
+          "semanticScholar": "E. Andoh-Mensah",
+          "triple": "<http://data-issa.cirad.fr/article/529913> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1418908551> ."
+        },
+        {
+          "issa": "Nuertey, B.N.",
+          "semanticScholar": "B. N. Nuertey",
+          "triple": "<http://data-issa.cirad.fr/article/529913> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/21010585> ."
+        },
+        {
+          "issa": "Nuertey, B.N.",
+          "semanticScholar": "J. Nkansah-Poku",
+          "triple": "<http://data-issa.cirad.fr/article/529913> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1429076786> ."
+        },
+        {
+          "issa": "Arthur, Ransford",
+          "semanticScholar": "R. Arthur",
+          "triple": "<http://data-issa.cirad.fr/article/529913> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/117114577> ."
+        },
+        {
+          "issa": "Philippe, Ren\u00e9",
+          "semanticScholar": "R. Philippe",
+          "triple": "<http://data-issa.cirad.fr/article/529913> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/39804111> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2006021",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Imbert, Eric",
+          "semanticScholar": "F. Bellec",
+          "triple": "<http://data-issa.cirad.fr/article/534265> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2083423460> ."
+        },
+        {
+          "issa": "Vaillant, Fabrice",
+          "semanticScholar": "F. Vaillant",
+          "triple": "<http://data-issa.cirad.fr/article/534265> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/51329824> ."
+        },
+        {
+          "issa": "Imbert, Eric",
+          "semanticScholar": "E. Imbert",
+          "triple": "<http://data-issa.cirad.fr/article/534265> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/81024861> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2006043",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Bakry, Fr\u00e9d\u00e9ric",
+          "semanticScholar": "F. Bakry",
+          "triple": "<http://data-issa.cirad.fr/article/537311> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34647991> ."
+        },
+        {
+          "issa": "Pichot, Sylvain",
+          "semanticScholar": "N. P. D. L. Reberdiere",
+          "triple": "<http://data-issa.cirad.fr/article/537311> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1730413075> ."
+        },
+        {
+          "issa": "Pichot, Sylvain",
+          "semanticScholar": "Sylvain Pichot",
+          "triple": "<http://data-issa.cirad.fr/article/537311> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/114520251> ."
+        },
+        {
+          "issa": "Jenny, Christophe",
+          "semanticScholar": "C. Jenny",
+          "triple": "<http://data-issa.cirad.fr/article/537311> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145366747> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2006051",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Rey, Jean-Yves",
+          "semanticScholar": "J. Rey",
+          "triple": "<http://data-issa.cirad.fr/article/537356> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/151061372> ."
+        },
+        {
+          "issa": "K\u00e9ita, Sidiki",
+          "semanticScholar": "T. Diallo",
+          "triple": "<http://data-issa.cirad.fr/article/537356> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1391415746> ."
+        },
+        {
+          "issa": "Vanni\u00e8re, Henri",
+          "semanticScholar": "H. Vanni\u00e8re",
+          "triple": "<http://data-issa.cirad.fr/article/537356> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2085465987> ."
+        },
+        {
+          "issa": "K\u00e9ita, Sidiki",
+          "semanticScholar": "C. Didier",
+          "triple": "<http://data-issa.cirad.fr/article/537356> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/86925016> ."
+        },
+        {
+          "issa": "K\u00e9ita, Sidiki",
+          "semanticScholar": "S. K\u00e9ita",
+          "triple": "<http://data-issa.cirad.fr/article/537356> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/89230894> ."
+        },
+        {
+          "issa": "Sangar\u00e9, Morodjan",
+          "semanticScholar": "M. Sangar\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/537356> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2071083933> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1017/S1751731107685073",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Bastianelli, Denis",
+          "semanticScholar": "D. Bastianelli",
+          "triple": "<http://data-issa.cirad.fr/article/539023> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/30125122> ."
+        },
+        {
+          "issa": "Quentin, Micha\u00ebl",
+          "semanticScholar": "M. Quentin",
+          "triple": "<http://data-issa.cirad.fr/article/539023> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/46263643> ."
+        },
+        {
+          "issa": "Bouvarel, Isabelle",
+          "semanticScholar": "I. Bouvarel",
+          "triple": "<http://data-issa.cirad.fr/article/539023> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5724535> ."
+        },
+        {
+          "issa": "Relandeau, C.",
+          "semanticScholar": "C. Relandeau",
+          "triple": "<http://data-issa.cirad.fr/article/539023> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/10360635> ."
+        },
+        {
+          "issa": "Lescoat, Philippe",
+          "semanticScholar": "P. Lescoat",
+          "triple": "<http://data-issa.cirad.fr/article/539023> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5922579> ."
+        },
+        {
+          "issa": "Picard, Michel",
+          "semanticScholar": "M. Picard",
+          "triple": "<http://data-issa.cirad.fr/article/539023> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/50226227> ."
+        },
+        {
+          "issa": "Tesseraud, Sophie",
+          "semanticScholar": "S. Tesseraud",
+          "triple": "<http://data-issa.cirad.fr/article/539023> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3551305> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2007014",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Vanni\u00e8re, Henri",
+          "semanticScholar": "H. Vanni\u00e8re",
+          "triple": "<http://data-issa.cirad.fr/article/539306> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2085465987> ."
+        },
+        {
+          "issa": "K\u00e9ita, Sidiki",
+          "semanticScholar": "C. Didier",
+          "triple": "<http://data-issa.cirad.fr/article/539306> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/86925016> ."
+        },
+        {
+          "issa": "Rey, Jean-Yves",
+          "semanticScholar": "J. Rey",
+          "triple": "<http://data-issa.cirad.fr/article/539306> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/151061372> ."
+        },
+        {
+          "issa": "K\u00e9ita, Sidiki",
+          "semanticScholar": "T. Diallo",
+          "triple": "<http://data-issa.cirad.fr/article/539306> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1391415746> ."
+        },
+        {
+          "issa": "K\u00e9ita, Sidiki",
+          "semanticScholar": "S. K\u00e9ita",
+          "triple": "<http://data-issa.cirad.fr/article/539306> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/89230894> ."
+        },
+        {
+          "issa": "Sangar\u00e9, Morodjan",
+          "semanticScholar": "M. Sangar\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/539306> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2071083933> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2007017",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Fahrasmane, Louis",
+          "semanticScholar": "L. Fahrasmane",
+          "triple": "<http://data-issa.cirad.fr/article/540111> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48902528> ."
+        },
+        {
+          "issa": "Ganou, Berthe",
+          "semanticScholar": "Berthe Ganou",
+          "triple": "<http://data-issa.cirad.fr/article/540111> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2080203452> ."
+        },
+        {
+          "issa": "Aurore, Guyl\u00e8ne",
+          "semanticScholar": "G. Aurore",
+          "triple": "<http://data-issa.cirad.fr/article/540111> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6239759> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2007018",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Kagy, Val\u00e9rie",
+          "semanticScholar": "M. Collin",
+          "triple": "<http://data-issa.cirad.fr/article/540112> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/116919474> ."
+        },
+        {
+          "issa": "Arnaud, C\u00e9cile",
+          "semanticScholar": "C. Arnaud",
+          "triple": "<http://data-issa.cirad.fr/article/540112> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2067666205> ."
+        },
+        {
+          "issa": "Kagy, Val\u00e9rie",
+          "semanticScholar": "V. Kagy",
+          "triple": "<http://data-issa.cirad.fr/article/540112> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2099331036> ."
+        },
+        {
+          "issa": "Didier, Christian",
+          "semanticScholar": "C. Didier",
+          "triple": "<http://data-issa.cirad.fr/article/540112> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/86925016> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2007019",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Gervais, Laurent",
+          "semanticScholar": "L. Gervais",
+          "triple": "<http://data-issa.cirad.fr/article/540115> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145474686> ."
+        },
+        {
+          "issa": "Lavigne, Christian",
+          "semanticScholar": "C. Lavigne",
+          "triple": "<http://data-issa.cirad.fr/article/540115> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/114633827> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2007029",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Sanogo, Fatogoma",
+          "semanticScholar": "J. Vayssi\u00e8res",
+          "triple": "<http://data-issa.cirad.fr/article/541127> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/36624520> ."
+        },
+        {
+          "issa": "Sanogo, Fatogoma",
+          "semanticScholar": "F. Sanogo",
+          "triple": "<http://data-issa.cirad.fr/article/541127> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87846505> ."
+        },
+        {
+          "issa": "Noussourou, Moussa",
+          "semanticScholar": "M. Noussourou",
+          "triple": "<http://data-issa.cirad.fr/article/541127> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/15010714> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1128/AEM.70.10.6123-6130.2004",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Vachon, Vincent",
+          "semanticScholar": "V. Vachon",
+          "triple": "<http://data-issa.cirad.fr/article/542067> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3661794> ."
+        },
+        {
+          "issa": "Rang, C\u00e9cile",
+          "semanticScholar": "G. Pre\u0301fontaine",
+          "triple": "<http://data-issa.cirad.fr/article/542067> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1882059> ."
+        },
+        {
+          "issa": "Rang, C\u00e9cile",
+          "semanticScholar": "C. Rang",
+          "triple": "<http://data-issa.cirad.fr/article/542067> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3366008> ."
+        },
+        {
+          "issa": "Masson, Luc",
+          "semanticScholar": "F. Coux",
+          "triple": "<http://data-issa.cirad.fr/article/542067> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/13044338> ."
+        },
+        {
+          "issa": "Juteau, Marc",
+          "semanticScholar": "M. Juteau",
+          "triple": "<http://data-issa.cirad.fr/article/542067> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4895872> ."
+        },
+        {
+          "issa": "Juteau, Marc",
+          "semanticScholar": "J. Schwartz",
+          "triple": "<http://data-issa.cirad.fr/article/542067> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/89317693> ."
+        },
+        {
+          "issa": "Brousseau, Roland",
+          "semanticScholar": "R. Brousseau",
+          "triple": "<http://data-issa.cirad.fr/article/542067> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5428762> ."
+        },
+        {
+          "issa": "Frutos, Roger",
+          "semanticScholar": "R. Frutos",
+          "triple": "<http://data-issa.cirad.fr/article/542067> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48125686> ."
+        },
+        {
+          "issa": "Laprade, Raynald",
+          "semanticScholar": "R. Laprade",
+          "triple": "<http://data-issa.cirad.fr/article/542067> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48701077> ."
+        },
+        {
+          "issa": "Masson, Luc",
+          "semanticScholar": "L. Masson",
+          "triple": "<http://data-issa.cirad.fr/article/542067> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/143988205> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1093/nar/gkm798",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Wanchana, Samart",
+          "semanticScholar": "S. Wanchana",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1949106> ."
+        },
+        {
+          "issa": "Thongjuea, Supat",
+          "semanticScholar": "Supat Thongjuea",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3290740> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "V. J. Ulat",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2778475> ."
+        },
+        {
+          "issa": "Anacleto, Mylah",
+          "semanticScholar": "M. Anacleto",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48271817> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "R. Mauleon",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3038297> ."
+        },
+        {
+          "issa": "Conte, Matthieu",
+          "semanticScholar": "Matthieu G. Conte",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/80520936> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "M. Rouard",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2913769> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "M. Ruiz",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144000413> ."
+        },
+        {
+          "issa": "Krishnamurthy, Nandini",
+          "semanticScholar": "Nandini Krishnamurthy",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34436123> ."
+        },
+        {
+          "issa": "Sjolander, Kimmen",
+          "semanticScholar": "K. Sj\u00f6lander",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5233893> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "T. Hintum",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3231604> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "R. Bruskiewich",
+          "triple": "<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/46296109> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.4081/gh.2007.250",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Martin, Vincent",
+          "semanticScholar": "V. Martin",
+          "triple": "<http://data-issa.cirad.fr/article/542388> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47787797> ."
+        },
+        {
+          "issa": "Lubroth, Juan",
+          "semanticScholar": "L. De Simone",
+          "triple": "<http://data-issa.cirad.fr/article/542388> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48718584> ."
+        },
+        {
+          "issa": "Lubroth, Juan",
+          "semanticScholar": "J. Lubroth",
+          "triple": "<http://data-issa.cirad.fr/article/542388> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6484397> ."
+        },
+        {
+          "issa": "Ceccato, Pietro",
+          "semanticScholar": "P. Ceccato",
+          "triple": "<http://data-issa.cirad.fr/article/542388> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2862156> ."
+        },
+        {
+          "issa": "Chevalier, V\u00e9ronique",
+          "semanticScholar": "V. Chevalier",
+          "triple": "<http://data-issa.cirad.fr/article/542388> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1857400> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2007044",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Bakry, Fr\u00e9d\u00e9ric",
+          "semanticScholar": "F. Bakry",
+          "triple": "<http://data-issa.cirad.fr/article/542680> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34647991> ."
+        },
+        {
+          "issa": "Assani, Akym",
+          "semanticScholar": "A. Assani",
+          "triple": "<http://data-issa.cirad.fr/article/542680> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/36968172> ."
+        },
+        {
+          "issa": "Kerbellec, Florence",
+          "semanticScholar": "F. Kerbellec",
+          "triple": "<http://data-issa.cirad.fr/article/542680> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2083658055> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2008001",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Ganry, Jacky",
+          "semanticScholar": "J. Ganry",
+          "triple": "<http://data-issa.cirad.fr/article/542694> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/15848725> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1017/S0950268807008801",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Diaite, Amadou",
+          "semanticScholar": "V. Chevalier",
+          "triple": "<http://data-issa.cirad.fr/article/543258> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1857400> ."
+        },
+        {
+          "issa": "Lancelot, Renaud",
+          "semanticScholar": "R. Lancelot",
+          "triple": "<http://data-issa.cirad.fr/article/543258> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3392547> ."
+        },
+        {
+          "issa": "Diaite, Amadou",
+          "semanticScholar": "A. Dia\u00eft\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/543258> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5673620> ."
+        },
+        {
+          "issa": "Mondet, Bernard",
+          "semanticScholar": "B. Mondet",
+          "triple": "<http://data-issa.cirad.fr/article/543258> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4907244> ."
+        },
+        {
+          "issa": "Diaite, Amadou",
+          "semanticScholar": "X. de Lamballerie",
+          "triple": "<http://data-issa.cirad.fr/article/543258> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3630009> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/vetres:2007046",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Tott\u00e9, Philippe",
+          "semanticScholar": "P. Totte\u0301",
+          "triple": "<http://data-issa.cirad.fr/article/543267> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5614882> ."
+        },
+        {
+          "issa": "Rodrigues, Val\u00e9rie",
+          "semanticScholar": "V. Rodrigues",
+          "triple": "<http://data-issa.cirad.fr/article/543267> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/36893315> ."
+        },
+        {
+          "issa": "Hamadou, B.",
+          "semanticScholar": "A. Yaya",
+          "triple": "<http://data-issa.cirad.fr/article/543267> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4214766> ."
+        },
+        {
+          "issa": "Hamadou, B.",
+          "semanticScholar": "B. Hamadou",
+          "triple": "<http://data-issa.cirad.fr/article/543267> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47974952> ."
+        },
+        {
+          "issa": "Ciss\u00e9, Ousmane",
+          "semanticScholar": "O. Ciss\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/543267> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/49393244> ."
+        },
+        {
+          "issa": "Niang, Mamadou",
+          "semanticScholar": "M. Diallo",
+          "triple": "<http://data-issa.cirad.fr/article/543267> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/46443328> ."
+        },
+        {
+          "issa": "Niang, Mamadou",
+          "semanticScholar": "M. Niang",
+          "triple": "<http://data-issa.cirad.fr/article/543267> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/143607056> ."
+        },
+        {
+          "issa": "Hamadou, B.",
+          "semanticScholar": "F. Thiaucourt",
+          "triple": "<http://data-issa.cirad.fr/article/543267> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3149275> ."
+        },
+        {
+          "issa": "Hamadou, B.",
+          "semanticScholar": "L. Dedieu",
+          "triple": "<http://data-issa.cirad.fr/article/543267> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/32119303> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/vetres:2007052",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "YaYa, Aboubakar",
+          "semanticScholar": "A. Yaya",
+          "triple": "<http://data-issa.cirad.fr/article/543275> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4214766> ."
+        },
+        {
+          "issa": "Manso-Silvan, Lucia",
+          "semanticScholar": "L. Manso-Silv\u00e1n",
+          "triple": "<http://data-issa.cirad.fr/article/543275> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1397995693> ."
+        },
+        {
+          "issa": "Blanchard, Alain",
+          "semanticScholar": "A. Blanchard",
+          "triple": "<http://data-issa.cirad.fr/article/543275> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/46973516> ."
+        },
+        {
+          "issa": "Thiaucourt, Fran\u00e7ois",
+          "semanticScholar": "F. Thiaucourt",
+          "triple": "<http://data-issa.cirad.fr/article/543275> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3149275> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2007053",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Bakry, Fr\u00e9d\u00e9ric",
+          "semanticScholar": "F. Bakry",
+          "triple": "<http://data-issa.cirad.fr/article/543896> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34647991> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2007054",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Causse, Sandrine",
+          "semanticScholar": "F. Baurens",
+          "triple": "<http://data-issa.cirad.fr/article/543898> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145624100> ."
+        },
+        {
+          "issa": "Causse, Sandrine",
+          "semanticScholar": "S. Causse",
+          "triple": "<http://data-issa.cirad.fr/article/543898> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/32684878> ."
+        },
+        {
+          "issa": "Legavre, Thierry",
+          "semanticScholar": "T. Legavre",
+          "triple": "<http://data-issa.cirad.fr/article/543898> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48557260> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2008008",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Bakry, Fr\u00e9d\u00e9ric",
+          "semanticScholar": "F. Bakry",
+          "triple": "<http://data-issa.cirad.fr/article/544342> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34647991> ."
+        },
+        {
+          "issa": "Shepherd, Kenneth",
+          "semanticScholar": "K. Shepherd",
+          "triple": "<http://data-issa.cirad.fr/article/544342> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2072597> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2008010",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Fils-Lycaon, Bernard",
+          "semanticScholar": "B. Fils-Lycaon",
+          "triple": "<http://data-issa.cirad.fr/article/544344> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1401701829> ."
+        },
+        {
+          "issa": "Mb\u00e9gui\u00e9-A-Mb\u00e9gui\u00e9, Didier",
+          "semanticScholar": "D. Mb\u00e9gui\u00e9-A-Mb\u00e9gui\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/544344> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1398981072> ."
+        },
+        {
+          "issa": "Chillet, Marc",
+          "semanticScholar": "M. Chillet",
+          "triple": "<http://data-issa.cirad.fr/article/544344> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6797551> ."
+        },
+        {
+          "issa": "Julianus, Philippe",
+          "semanticScholar": "Philippe Julianus",
+          "triple": "<http://data-issa.cirad.fr/article/544344> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/88173160> ."
+        },
+        {
+          "issa": "Galas, Colette",
+          "semanticScholar": "C. Galas",
+          "triple": "<http://data-issa.cirad.fr/article/544344> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48116476> ."
+        },
+        {
+          "issa": "Galas, Colette",
+          "semanticScholar": "R. Gomez",
+          "triple": "<http://data-issa.cirad.fr/article/544344> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144089864> ."
+        },
+        {
+          "issa": "Hubert, Olivier",
+          "semanticScholar": "O. Hubert",
+          "triple": "<http://data-issa.cirad.fr/article/544344> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/49153199> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2008011",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Rhino, B\u00e9atrice",
+          "semanticScholar": "J. Ris\u00e8de",
+          "triple": "<http://data-issa.cirad.fr/article/544345> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87368252> ."
+        },
+        {
+          "issa": "Rhino, B\u00e9atrice",
+          "semanticScholar": "B. Rhino",
+          "triple": "<http://data-issa.cirad.fr/article/544345> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/11676459> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.37833/cord.v24i1.155",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Roupsard, Olivier",
+          "semanticScholar": "O. Roupsard",
+          "triple": "<http://data-issa.cirad.fr/article/544684> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1835061> ."
+        },
+        {
+          "issa": "Lamanda, Nathalie",
+          "semanticScholar": "N. Lamanda",
+          "triple": "<http://data-issa.cirad.fr/article/544684> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6107538> ."
+        },
+        {
+          "issa": "Dauzat, Jean",
+          "semanticScholar": "C. Jourdan",
+          "triple": "<http://data-issa.cirad.fr/article/544684> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/21630508> ."
+        },
+        {
+          "issa": "Navarro, Muriel",
+          "semanticScholar": "M. Navarro",
+          "triple": "<http://data-issa.cirad.fr/article/544684> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/46990114> ."
+        },
+        {
+          "issa": "Sileye, Tiata",
+          "semanticScholar": "I. Mialet-Serra",
+          "triple": "<http://data-issa.cirad.fr/article/544684> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1401490040> ."
+        },
+        {
+          "issa": "Dauzat, Jean",
+          "semanticScholar": "J. Dauzat",
+          "triple": "<http://data-issa.cirad.fr/article/544684> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1961350> ."
+        },
+        {
+          "issa": "Sileye, Tiata",
+          "semanticScholar": "T. Sileye",
+          "triple": "<http://data-issa.cirad.fr/article/544684> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/15510392> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.37833/cord.v24i1.156",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Roupsard, Olivier",
+          "semanticScholar": "O. Roupsard",
+          "triple": "<http://data-issa.cirad.fr/article/544686> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1835061> ."
+        },
+        {
+          "issa": "Hamel, Olivier",
+          "semanticScholar": "O. Hamel",
+          "triple": "<http://data-issa.cirad.fr/article/544686> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2056689483> ."
+        },
+        {
+          "issa": "Henry, Matieu",
+          "semanticScholar": "M. Henry",
+          "triple": "<http://data-issa.cirad.fr/article/544686> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/36458796> ."
+        },
+        {
+          "issa": "Rouzi\u00e8re, Andr\u00e9",
+          "semanticScholar": "A. Rouzi\u00e8re",
+          "triple": "<http://data-issa.cirad.fr/article/544686> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/12773322> ."
+        },
+        {
+          "issa": "Sileye, Tiata",
+          "semanticScholar": "T. Sileye",
+          "triple": "<http://data-issa.cirad.fr/article/544686> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/15510392> ."
+        },
+        {
+          "issa": "Henry, Matieu",
+          "semanticScholar": "J. Labouisse",
+          "triple": "<http://data-issa.cirad.fr/article/544686> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6062827> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.3201/eid1407.071477",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Gaidet, Nicolas",
+          "semanticScholar": "N. Gaidet",
+          "triple": "<http://data-issa.cirad.fr/article/545317> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4599306> ."
+        },
+        {
+          "issa": "Newman, Scott",
+          "semanticScholar": "S. Newman",
+          "triple": "<http://data-issa.cirad.fr/article/545317> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3149423> ."
+        },
+        {
+          "issa": "Hagemeijer, Ward",
+          "semanticScholar": "W. Hagemeijer",
+          "triple": "<http://data-issa.cirad.fr/article/545317> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87694993> ."
+        },
+        {
+          "issa": "Dodman, Tim",
+          "semanticScholar": "T. Dodman",
+          "triple": "<http://data-issa.cirad.fr/article/545317> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6581387> ."
+        },
+        {
+          "issa": "Cappelle, Julien",
+          "semanticScholar": "J. Cappelle",
+          "triple": "<http://data-issa.cirad.fr/article/545317> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3555876> ."
+        },
+        {
+          "issa": "Hammoumi, Saliha",
+          "semanticScholar": "S. Hammoumi",
+          "triple": "<http://data-issa.cirad.fr/article/545317> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4454321> ."
+        },
+        {
+          "issa": "Dodman, Tim",
+          "semanticScholar": "L. De Simone",
+          "triple": "<http://data-issa.cirad.fr/article/545317> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48718584> ."
+        },
+        {
+          "issa": "Dodman, Tim",
+          "semanticScholar": "J. Takekawa",
+          "triple": "<http://data-issa.cirad.fr/article/545317> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2796660> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2008019",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Chillet, Marc",
+          "semanticScholar": "M. Chillet",
+          "triple": "<http://data-issa.cirad.fr/article/545746> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6797551> ."
+        },
+        {
+          "issa": "Chillet, Marc",
+          "semanticScholar": "L. Bellaire",
+          "triple": "<http://data-issa.cirad.fr/article/545746> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/82937626> ."
+        },
+        {
+          "issa": "Hubert, Olivier",
+          "semanticScholar": "O. Hubert",
+          "triple": "<http://data-issa.cirad.fr/article/545746> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/49153199> ."
+        },
+        {
+          "issa": "Mb\u00e9gui\u00e9-A-Mb\u00e9gui\u00e9, Didier",
+          "semanticScholar": "D. Mb\u00e9gui\u00e9-A-Mb\u00e9gui\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/545746> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1398981072> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2008020",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Mb\u00e9gui\u00e9-A-Mb\u00e9gui\u00e9, Didier",
+          "semanticScholar": "D. Mb\u00e9gui\u00e9-A-Mb\u00e9gui\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/545747> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1398981072> ."
+        },
+        {
+          "issa": "Fils-Lycaon, Bernard",
+          "semanticScholar": "B. Fils-Lycaon",
+          "triple": "<http://data-issa.cirad.fr/article/545747> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1401701829> ."
+        },
+        {
+          "issa": "Chillet, Marc",
+          "semanticScholar": "M. Chillet",
+          "triple": "<http://data-issa.cirad.fr/article/545747> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6797551> ."
+        },
+        {
+          "issa": "Hubert, Olivier",
+          "semanticScholar": "O. Hubert",
+          "triple": "<http://data-issa.cirad.fr/article/545747> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/49153199> ."
+        },
+        {
+          "issa": "Galas, Colette",
+          "semanticScholar": "C. Galas",
+          "triple": "<http://data-issa.cirad.fr/article/545747> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48116476> ."
+        },
+        {
+          "issa": "Galas, Colette",
+          "semanticScholar": "R. Gomez",
+          "triple": "<http://data-issa.cirad.fr/article/545747> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144089864> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2008021",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Chilin-Charles, Yolande",
+          "semanticScholar": "L. Bellaire",
+          "triple": "<http://data-issa.cirad.fr/article/545749> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/82937626> ."
+        },
+        {
+          "issa": "Chilin-Charles, Yolande",
+          "semanticScholar": "Y. Chilin-Charles",
+          "triple": "<http://data-issa.cirad.fr/article/545749> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1404892865> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1371/journal.ppat.1000127",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Gaidet, Nicolas",
+          "semanticScholar": "N. Gaidet",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4599306> ."
+        },
+        {
+          "issa": "Gil, Patricia",
+          "semanticScholar": "G. Cattoli",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2862602> ."
+        },
+        {
+          "issa": "Hammoumi, Saliha",
+          "semanticScholar": "S. Hammoumi",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4454321> ."
+        },
+        {
+          "issa": "Newman, Scott",
+          "semanticScholar": "S. Newman",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3149423> ."
+        },
+        {
+          "issa": "Hagemeijer, Ward",
+          "semanticScholar": "W. Hagemeijer",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87694993> ."
+        },
+        {
+          "issa": "Dodman, Tim",
+          "semanticScholar": "J. Takekawa",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2796660> ."
+        },
+        {
+          "issa": "Cappelle, Julien",
+          "semanticScholar": "J. Cappelle",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3555876> ."
+        },
+        {
+          "issa": "Dodman, Tim",
+          "semanticScholar": "T. Dodman",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6581387> ."
+        },
+        {
+          "issa": "Dodman, Tim",
+          "semanticScholar": "T. Joannis",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5902399> ."
+        },
+        {
+          "issa": "Gil, Patricia",
+          "semanticScholar": "P. Gil",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/46263828> ."
+        },
+        {
+          "issa": "Dodman, Tim",
+          "semanticScholar": "I. Monne",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4252689> ."
+        },
+        {
+          "issa": "Fusaro, Alice",
+          "semanticScholar": "A. Fusaro",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145125218> ."
+        },
+        {
+          "issa": "Capua, Ilaria",
+          "semanticScholar": "I. Capua",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6409101> ."
+        },
+        {
+          "issa": "Dodman, Tim",
+          "semanticScholar": "S. Manu",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2102100299> ."
+        },
+        {
+          "issa": "Micheloni, Pierfrancesco",
+          "semanticScholar": "Pierfrancesco Micheloni",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/46915533> ."
+        },
+        {
+          "issa": "Ottosson, Ulf",
+          "semanticScholar": "U. Ottosson",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/50815805> ."
+        },
+        {
+          "issa": "Monne, Isabella",
+          "semanticScholar": "J. Mshelbwala",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/88375459> ."
+        },
+        {
+          "issa": "Lubroth, Juan",
+          "semanticScholar": "J. Lubroth",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6484397> ."
+        },
+        {
+          "issa": "Domenech, Joseph",
+          "semanticScholar": "J. Domenech",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6235389> ."
+        },
+        {
+          "issa": "Dodman, Tim",
+          "semanticScholar": "F. Monicat",
+          "triple": "<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5066544> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1590/S0103-50532008000700021",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Pioch, Daniel",
+          "semanticScholar": "T. Chunhieng",
+          "triple": "<http://data-issa.cirad.fr/article/546483> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/15689183> ."
+        },
+        {
+          "issa": "Pioch, Daniel",
+          "semanticScholar": "A. Hafidi",
+          "triple": "<http://data-issa.cirad.fr/article/546483> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/35151152> ."
+        },
+        {
+          "issa": "Pioch, Daniel",
+          "semanticScholar": "D. Pioch",
+          "triple": "<http://data-issa.cirad.fr/article/546483> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/12887422> ."
+        },
+        {
+          "issa": "Brochier, Jos\u00e9",
+          "semanticScholar": "J. Brochier",
+          "triple": "<http://data-issa.cirad.fr/article/546483> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/14407153> ."
+        },
+        {
+          "issa": "Montet, Didier",
+          "semanticScholar": "D. Mont\u0113t",
+          "triple": "<http://data-issa.cirad.fr/article/546483> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3696555> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1155/2008/369601",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "R. Bruskiewich",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/46296109> ."
+        },
+        {
+          "issa": "Senger, Martin",
+          "semanticScholar": "M. Senger",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2054776> ."
+        },
+        {
+          "issa": "Davenport, Guy",
+          "semanticScholar": "G. Davenport",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/37494740> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "M. Ruiz",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144000413> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "M. Rouard",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2913769> ."
+        },
+        {
+          "issa": "Hazekamp, Tom",
+          "semanticScholar": "T. Hazekamp",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6324634> ."
+        },
+        {
+          "issa": "Takeya, Masaru",
+          "semanticScholar": "Masaru Takeya",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34833792> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "K. Doi",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2681554> ."
+        },
+        {
+          "issa": "Satoh, Kouji",
+          "semanticScholar": "Kouji Satoh",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/123858486> ."
+        },
+        {
+          "issa": "Costa, Marcos",
+          "semanticScholar": "Marcos Costa",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2111023321> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "R. Simon",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2106226901> ."
+        },
+        {
+          "issa": "Balaji, Jayashree",
+          "semanticScholar": "Jayashree Balaji",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48000137> ."
+        },
+        {
+          "issa": "Akintunde, Akinnola",
+          "semanticScholar": "Akinnola N. Akintunde",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6416160> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "R. Mauleon",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3038297> ."
+        },
+        {
+          "issa": "Wanchana, Samart",
+          "semanticScholar": "S. Wanchana",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1949106> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "T. Shah",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/15749108> ."
+        },
+        {
+          "issa": "Anacleto, Mylah",
+          "semanticScholar": "M. Anacleto",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48271817> ."
+        },
+        {
+          "issa": "Portugal, Arllet",
+          "semanticScholar": "Arllet M. Portugal",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/36491424> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "V. J. Ulat",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2778475> ."
+        },
+        {
+          "issa": "Thongjuea, Supat",
+          "semanticScholar": "Supat Thongjuea",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3290740> ."
+        },
+        {
+          "issa": "Braak, Kyle",
+          "semanticScholar": "K. Braak",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/108352472> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "S. Ritter",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/51014653> ."
+        },
+        {
+          "issa": "Dereeper, Alexis",
+          "semanticScholar": "A. Dereeper",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3180668> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "M. Skofic",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2906567> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "E. Rojas",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/49437478> ."
+        },
+        {
+          "issa": "Senger, Martin",
+          "semanticScholar": "Natalia Martins",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2057065126> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "G. Pappas",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145182899> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "R. Alamban",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4861831> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "Roque Almodiel",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4250404> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "Lord H. Barboza",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2664292> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "J. Detras",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6336762> ."
+        },
+        {
+          "issa": "Takeya, Masaru",
+          "semanticScholar": "Kevin Manansala",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5184420> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "M. J. Mendoza",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48197010> ."
+        },
+        {
+          "issa": "Rouard, Mathieu",
+          "semanticScholar": "Jeffrey Morales",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2066713638> ."
+        },
+        {
+          "issa": "Braak, Kyle",
+          "semanticScholar": "Barry Peralta",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5324936> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "R. Valerio",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48029197> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "Yi Zhang",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2153914225> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "Sergio E. Gregorio",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/38733741> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "J. Hermocilla",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2062124> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "M. Echavez",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1391947149> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "Jan Michael C. Yap",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48270768> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "A. Farmer",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145660638> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "Gary S. Schiltz",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47233309> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "Jennifer Lee",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2143410314> ."
+        },
+        {
+          "issa": "Costa, Marcos",
+          "semanticScholar": "T. Casstevens",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3316858> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "P. Jaiswal",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87973648> ."
+        },
+        {
+          "issa": "Senger, Martin",
+          "semanticScholar": "Ayton Meintjes",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2442056> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "M. Wilkinson",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2059273428> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "Ben Good",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/70568203> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "J. Wagner",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/115162823> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "Jane Morris",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2118077493> ."
+        },
+        {
+          "issa": "Takeya, Masaru",
+          "semanticScholar": "D. Marshall",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145710687> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "Anthony Collins",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2057262855> ."
+        },
+        {
+          "issa": "Satoh, Kouji",
+          "semanticScholar": "S. Kikuchi",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/35016527> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "T. Metz",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/37774392> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "G. McLaren",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145757436> ."
+        },
+        {
+          "issa": "Doi, Koji",
+          "semanticScholar": "T. V. van Hintum",
+          "triple": "<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/20450459> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1186/1743-422X-5-123",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Silva, T.F.",
+          "semanticScholar": "T. Silva",
+          "triple": "<http://data-issa.cirad.fr/article/546898> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2107359767> ."
+        },
+        {
+          "issa": "Corr\u00eaa, R.L.",
+          "semanticScholar": "R. Corr\u00eaa",
+          "triple": "<http://data-issa.cirad.fr/article/546898> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2066315682> ."
+        },
+        {
+          "issa": "Castilho, Yama",
+          "semanticScholar": "Y. Castilho",
+          "triple": "<http://data-issa.cirad.fr/article/546898> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2102574212> ."
+        },
+        {
+          "issa": "Silvie, Pierre",
+          "semanticScholar": "P. Silvie",
+          "triple": "<http://data-issa.cirad.fr/article/546898> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5696151> ."
+        },
+        {
+          "issa": "Silva, T.F.",
+          "semanticScholar": "J. Belot",
+          "triple": "<http://data-issa.cirad.fr/article/546898> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/143826883> ."
+        },
+        {
+          "issa": "Silva, T.F.",
+          "semanticScholar": "M. Vaslin",
+          "triple": "<http://data-issa.cirad.fr/article/546898> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34504846> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1371/journal.pone.0003673",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Lucas, Mika\u00ebl",
+          "semanticScholar": "M. Lucas",
+          "triple": "<http://data-issa.cirad.fr/article/546973> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/50379642> ."
+        },
+        {
+          "issa": "Gu\u00e9don, Yann",
+          "semanticScholar": "Y. Gu\u00e9don",
+          "triple": "<http://data-issa.cirad.fr/article/546973> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1937330> ."
+        },
+        {
+          "issa": "Gu\u00e9don, Yann",
+          "semanticScholar": "C. Jay-Allemand",
+          "triple": "<http://data-issa.cirad.fr/article/546973> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1399245057> ."
+        },
+        {
+          "issa": "Gu\u00e9don, Yann",
+          "semanticScholar": "C. Godin",
+          "triple": "<http://data-issa.cirad.fr/article/546973> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1866742> ."
+        },
+        {
+          "issa": "Laplaze, Laurent",
+          "semanticScholar": "L. Laplaze",
+          "triple": "<http://data-issa.cirad.fr/article/546973> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4594339> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.20506/rst.27.2.1802",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Martin, Vincent",
+          "semanticScholar": "V. Martin",
+          "triple": "<http://data-issa.cirad.fr/article/547072> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47787797> ."
+        },
+        {
+          "issa": "Chevalier, V\u00e9ronique",
+          "semanticScholar": "V. Chevalier",
+          "triple": "<http://data-issa.cirad.fr/article/547072> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1857400> ."
+        },
+        {
+          "issa": "Ceccato, Pietro",
+          "semanticScholar": "P. Ceccato",
+          "triple": "<http://data-issa.cirad.fr/article/547072> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2862156> ."
+        },
+        {
+          "issa": "Anyamba, Assaf",
+          "semanticScholar": "A. Anyamba",
+          "triple": "<http://data-issa.cirad.fr/article/547072> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2983984> ."
+        },
+        {
+          "issa": "Lubroth, Juan",
+          "semanticScholar": "L. De Simone",
+          "triple": "<http://data-issa.cirad.fr/article/547072> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48718584> ."
+        },
+        {
+          "issa": "Lubroth, Juan",
+          "semanticScholar": "J. Lubroth",
+          "triple": "<http://data-issa.cirad.fr/article/547072> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6484397> ."
+        },
+        {
+          "issa": "Lubroth, Juan",
+          "semanticScholar": "S. de la Rocque",
+          "triple": "<http://data-issa.cirad.fr/article/547072> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3870026> ."
+        },
+        {
+          "issa": "Domenech, Joseph",
+          "semanticScholar": "J. Domenech",
+          "triple": "<http://data-issa.cirad.fr/article/547072> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6235389> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.19182/remvt.9996",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Senou, Marcel",
+          "semanticScholar": "M. Senou",
+          "triple": "<http://data-issa.cirad.fr/article/547193> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/13857840> ."
+        },
+        {
+          "issa": "Tol\u00e9ba, S.S.",
+          "semanticScholar": "S. S. Tol\u00e9ba",
+          "triple": "<http://data-issa.cirad.fr/article/547193> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/41174326> ."
+        },
+        {
+          "issa": "Adandedjan, C.",
+          "semanticScholar": "C. Adand\u00e9djan",
+          "triple": "<http://data-issa.cirad.fr/article/547193> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/74669386> ."
+        },
+        {
+          "issa": "Tour\u00e9, F.Z.",
+          "semanticScholar": "J. Poivey",
+          "triple": "<http://data-issa.cirad.fr/article/547193> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4664732> ."
+        },
+        {
+          "issa": "Ahissou, A.",
+          "semanticScholar": "A. Ahissou",
+          "triple": "<http://data-issa.cirad.fr/article/547193> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/21758531> ."
+        },
+        {
+          "issa": "Tour\u00e9, F.Z.",
+          "semanticScholar": "F. Z. Tour\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/547193> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/50811846> ."
+        },
+        {
+          "issa": "Monsia, C.",
+          "semanticScholar": "C. Monsia",
+          "triple": "<http://data-issa.cirad.fr/article/547193> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/88006656> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2008038",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Ganry, Jacky",
+          "semanticScholar": "J. Ganry",
+          "triple": "<http://data-issa.cirad.fr/article/547539> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/15848725> ."
+        },
+        {
+          "issa": "Ganry, Jacky",
+          "semanticScholar": "L. Bellaire",
+          "triple": "<http://data-issa.cirad.fr/article/547539> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/82937626> ."
+        },
+        {
+          "issa": "Mourichon, Xavier",
+          "semanticScholar": "X. Mourichon",
+          "triple": "<http://data-issa.cirad.fr/article/547539> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2102119966> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.3201/eid1412.080591",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Vosloo, Wilna",
+          "semanticScholar": "R. Rowlands",
+          "triple": "<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144788199> ."
+        },
+        {
+          "issa": "Michaud, Vincent",
+          "semanticScholar": "V. Michaud",
+          "triple": "<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48984226> ."
+        },
+        {
+          "issa": "Heath, Livio",
+          "semanticScholar": "L. Heath",
+          "triple": "<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/36529093> ."
+        },
+        {
+          "issa": "Hutchings, Geoff",
+          "semanticScholar": "G. Hutchings",
+          "triple": "<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/32743214> ."
+        },
+        {
+          "issa": "Oura, Chris",
+          "semanticScholar": "C. Oura",
+          "triple": "<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/46312004> ."
+        },
+        {
+          "issa": "Vosloo, Wilna",
+          "semanticScholar": "W. Vosloo",
+          "triple": "<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144654447> ."
+        },
+        {
+          "issa": "Dwarka, Rahana",
+          "semanticScholar": "R. Dwarka",
+          "triple": "<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6668866> ."
+        },
+        {
+          "issa": "Onashvili, Tinatin",
+          "semanticScholar": "Tinatin Onashvili",
+          "triple": "<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5477107> ."
+        },
+        {
+          "issa": "Oura, Chris",
+          "semanticScholar": "E. Albina",
+          "triple": "<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/7018881> ."
+        },
+        {
+          "issa": "Oura, Chris",
+          "semanticScholar": "L. Dixon",
+          "triple": "<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/37498293> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1093/nar/gkn821",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Droc, Ga\u00ebtan",
+          "semanticScholar": "G. Droc",
+          "triple": "<http://data-issa.cirad.fr/article/547691> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/143739900> ."
+        },
+        {
+          "issa": "Droc, Ga\u00ebtan",
+          "semanticScholar": "C. P\u00e9rin",
+          "triple": "<http://data-issa.cirad.fr/article/547691> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1947799> ."
+        },
+        {
+          "issa": "Droc, Ga\u00ebtan",
+          "semanticScholar": "S. Fromentin",
+          "triple": "<http://data-issa.cirad.fr/article/547691> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2250111> ."
+        },
+        {
+          "issa": "Larmande, Pierre",
+          "semanticScholar": "P. Larmande",
+          "triple": "<http://data-issa.cirad.fr/article/547691> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/49767167> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.14411/eje.2008.019",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Lotfalizadeh, Hosseinali",
+          "semanticScholar": "H. Lotfalizadeh",
+          "triple": "<http://data-issa.cirad.fr/article/547841> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/14919308> ."
+        },
+        {
+          "issa": "Delvare, G\u00e9rard",
+          "semanticScholar": "G\u00e9rard Delvare",
+          "triple": "<http://data-issa.cirad.fr/article/547841> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2084124661> ."
+        },
+        {
+          "issa": "Rasplus, Jean-Yves",
+          "semanticScholar": "Jean-Yves Rasplus",
+          "triple": "<http://data-issa.cirad.fr/article/547841> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2070204267> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1128/AEM.02245-08",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Bui Thi Ngoc, Lan",
+          "semanticScholar": "L. Bui Thi Ngoc",
+          "triple": "<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/12496805> ."
+        },
+        {
+          "issa": "Verni\u00e8re, Christian",
+          "semanticScholar": "C. Verni\u00e8re",
+          "triple": "<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5483134> ."
+        },
+        {
+          "issa": "Jarne, Philippe",
+          "semanticScholar": "P. Jarne",
+          "triple": "<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3005866> ."
+        },
+        {
+          "issa": "Brisse, Sylvain",
+          "semanticScholar": "S. Brisse",
+          "triple": "<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6279472> ."
+        },
+        {
+          "issa": "Gu\u00e9rin, Fabien",
+          "semanticScholar": "F. Gu\u00e9rin",
+          "triple": "<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/40055770> ."
+        },
+        {
+          "issa": "Boutry, S\u00e9bastien",
+          "semanticScholar": "S. Boutry",
+          "triple": "<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5768192> ."
+        },
+        {
+          "issa": "Gagnevin, Lionel",
+          "semanticScholar": "L. Gagnevin",
+          "triple": "<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3506175> ."
+        },
+        {
+          "issa": "Pruvost, Olivier",
+          "semanticScholar": "O. Pruvost",
+          "triple": "<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145570935> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1590/S1982-56762008000500006",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Dollet, Michel",
+          "semanticScholar": "V. L. A. Marinho",
+          "triple": "<http://data-issa.cirad.fr/article/548148> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/11836229> ."
+        },
+        {
+          "issa": "Fabre, Sandrine",
+          "semanticScholar": "S. Fabre",
+          "triple": "<http://data-issa.cirad.fr/article/548148> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144142245> ."
+        },
+        {
+          "issa": "Dollet, Michel",
+          "semanticScholar": "M. Dollet",
+          "triple": "<http://data-issa.cirad.fr/article/548148> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/4440031> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1186/1471-2164-9-512",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Argout, Xavier",
+          "semanticScholar": "X. Argout",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2336433> ."
+        },
+        {
+          "issa": "Fouet, Olivier",
+          "semanticScholar": "O. Fouet",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5154097> ."
+        },
+        {
+          "issa": "Wincker, Patrick",
+          "semanticScholar": "P. Wincker",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2839934> ."
+        },
+        {
+          "issa": "Sabau, Xavier",
+          "semanticScholar": "K. Gramacho",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/7310778> ."
+        },
+        {
+          "issa": "Legavre, Thierry",
+          "semanticScholar": "T. Legavre",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48557260> ."
+        },
+        {
+          "issa": "Sabau, Xavier",
+          "semanticScholar": "X. Sabau",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3384765> ."
+        },
+        {
+          "issa": "Verica, Joseph",
+          "semanticScholar": "A. Risterucci",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/47483510> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "C. da Silva",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/133750590> ."
+        },
+        {
+          "issa": "Sabau, Xavier",
+          "semanticScholar": "J. Cascardo",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/118172820> ."
+        },
+        {
+          "issa": "All\u00e8gre, Mathilde",
+          "semanticScholar": "M. All\u00e8gre",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6895644> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "D. Kuhn",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34978852> ."
+        },
+        {
+          "issa": "Verica, Joseph",
+          "semanticScholar": "J. Verica",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5662516> ."
+        },
+        {
+          "issa": "Babin, R\u00e9gis",
+          "semanticScholar": "B. Courtois",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2559019> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "G. Loor",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/39170235> ."
+        },
+        {
+          "issa": "Babin, R\u00e9gis",
+          "semanticScholar": "R. Babin",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/31899365> ."
+        },
+        {
+          "issa": "Sounigo, Olivier",
+          "semanticScholar": "O. Sounigo",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/7922320> ."
+        },
+        {
+          "issa": "Ducamp, Michel",
+          "semanticScholar": "M. Ducamp",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/40484149> ."
+        },
+        {
+          "issa": "Gilmour, Martin",
+          "semanticScholar": "M. Guiltinan",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5413352> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "M. Ruiz",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144000413> ."
+        },
+        {
+          "issa": "Alemanno, Laurence",
+          "semanticScholar": "L. Alemanno",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/7538481> ."
+        },
+        {
+          "issa": "Machado, Regina",
+          "semanticScholar": "R. Machado",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/34667882> ."
+        },
+        {
+          "issa": "Phillips, Wilbert",
+          "semanticScholar": "W. Phillips",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/37249560> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "R. Schnell",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/35605195> ."
+        },
+        {
+          "issa": "Gilmour, Martin",
+          "semanticScholar": "M. Gilmour",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145560116> ."
+        },
+        {
+          "issa": "Rosenquist, Eric",
+          "semanticScholar": "E. Rosenquist",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/108262952> ."
+        },
+        {
+          "issa": "Ruiz, Manuel",
+          "semanticScholar": "D. Butler",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/40387384> ."
+        },
+        {
+          "issa": "Sabau, Xavier",
+          "semanticScholar": "S. Maximova",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5532569> ."
+        },
+        {
+          "issa": "Lanaud, Claire",
+          "semanticScholar": "C. Lanaud",
+          "triple": "<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3523452> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1111/j.1364-3703.2004.00250.x",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Fernandez, Diana",
+          "semanticScholar": "D. Fernandez",
+          "triple": "<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/145183004> ."
+        },
+        {
+          "issa": "Santos, Patricia",
+          "semanticScholar": "P. Santos",
+          "triple": "<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/134601878> ."
+        },
+        {
+          "issa": "Agostini, Caroline",
+          "semanticScholar": "Caroline Agostini",
+          "triple": "<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1403983657> ."
+        },
+        {
+          "issa": "Ribeiro, Ana",
+          "semanticScholar": "M. Bon",
+          "triple": "<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48489912> ."
+        },
+        {
+          "issa": "Ribeiro, Ana",
+          "semanticScholar": "A. Petitot",
+          "triple": "<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6544132> ."
+        },
+        {
+          "issa": "Silva, Maria C.",
+          "semanticScholar": "Maria C Silva",
+          "triple": "<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1403982995> ."
+        },
+        {
+          "issa": "Guerra-Guimar\u00e3es, Leonor",
+          "semanticScholar": "L. Guerra-Guimar\u00e3es",
+          "triple": "<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1403982987> ."
+        },
+        {
+          "issa": "Ribeiro, Ana",
+          "semanticScholar": "A. Ribeiro",
+          "triple": "<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87464162> ."
+        },
+        {
+          "issa": "Argout, Xavier",
+          "semanticScholar": "X. Argout",
+          "triple": "<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2336433> ."
+        },
+        {
+          "issa": "Nicole, Michel",
+          "semanticScholar": "M. Nicole",
+          "triple": "<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/144629734> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits/2009001",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Telle, Nelly",
+          "semanticScholar": "C. Bugaud",
+          "triple": "<http://data-issa.cirad.fr/article/548796> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5381572> ."
+        },
+        {
+          "issa": "Telle, Nelly",
+          "semanticScholar": "M. Daribo",
+          "triple": "<http://data-issa.cirad.fr/article/548796> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87968906> ."
+        },
+        {
+          "issa": "Telle, Nelly",
+          "semanticScholar": "M. Beaut\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/548796> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/88370361> ."
+        },
+        {
+          "issa": "Telle, Nelly",
+          "semanticScholar": "Nelly Telle",
+          "triple": "<http://data-issa.cirad.fr/article/548796> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87607576> ."
+        },
+        {
+          "issa": "Dubois, C\u00e9cile",
+          "semanticScholar": "C. Dubois",
+          "triple": "<http://data-issa.cirad.fr/article/548796> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/71292369> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1007/s12284-008-9016-5",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Rebouillat, Julia",
+          "semanticScholar": "J. Rebouillat",
+          "triple": "<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/117369232> ."
+        },
+        {
+          "issa": "Dievart, Anne",
+          "semanticScholar": "A. Di\u00e9vart",
+          "triple": "<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2791910> ."
+        },
+        {
+          "issa": "Verdeil, Jean-Luc",
+          "semanticScholar": "J. Verdeil",
+          "triple": "<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/48342970> ."
+        },
+        {
+          "issa": "Escoute, Jacques",
+          "semanticScholar": "J. Escoute",
+          "triple": "<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5552412> ."
+        },
+        {
+          "issa": "Giese, Guenter",
+          "semanticScholar": "G. Giese",
+          "triple": "<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2084208838> ."
+        },
+        {
+          "issa": "Giese, Guenter",
+          "semanticScholar": "J. Breitler",
+          "triple": "<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6293221> ."
+        },
+        {
+          "issa": "Gantet, Pascal",
+          "semanticScholar": "P. Gantet",
+          "triple": "<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/5660701> ."
+        },
+        {
+          "issa": "Espeout, Sandra",
+          "semanticScholar": "S. Esp\u00e9out",
+          "triple": "<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/7468965> ."
+        },
+        {
+          "issa": "Giese, Guenter",
+          "semanticScholar": "E. Guiderdoni",
+          "triple": "<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2280258> ."
+        },
+        {
+          "issa": "Dievart, Anne",
+          "semanticScholar": "C. P\u00e9rin",
+          "triple": "<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/1947799> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1128/AEM.02906-07",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Darsonval, A.",
+          "semanticScholar": "A. Darsonval",
+          "triple": "<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/12462417> ."
+        },
+        {
+          "issa": "Darrasse, Armelle",
+          "semanticScholar": "A. Darrasse",
+          "triple": "<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/3160273> ."
+        },
+        {
+          "issa": "Meyer, Damien",
+          "semanticScholar": "D. Meyer",
+          "triple": "<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/33551607> ."
+        },
+        {
+          "issa": "Demarty, M.",
+          "semanticScholar": "M. Demarty",
+          "triple": "<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2238394> ."
+        },
+        {
+          "issa": "Durand, Karine",
+          "semanticScholar": "K. Durand",
+          "triple": "<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/50669695> ."
+        },
+        {
+          "issa": "Demarty, M.",
+          "semanticScholar": "C. Bureau",
+          "triple": "<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/50585456> ."
+        },
+        {
+          "issa": "Manceau, Charles",
+          "semanticScholar": "C. Manceau",
+          "triple": "<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/6430234> ."
+        },
+        {
+          "issa": "Meyer, Damien",
+          "semanticScholar": "M. Jacques",
+          "triple": "<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/83527274> ."
+        }
+      ]
+    },
+    {
+      "doi": "10.3923/ajpp.2008.73.80",
+      "authors_matched_rate": 1.0,
+      "authors": [
+        {
+          "issa": "Adjata, K.D.",
+          "semanticScholar": "K. Adjata",
+          "triple": "<http://data-issa.cirad.fr/article/549390> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/86909004> ."
+        },
+        {
+          "issa": "Adjata, K.D.",
+          "semanticScholar": "E. Muller",
+          "triple": "<http://data-issa.cirad.fr/article/549390> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/117895603> ."
+        },
+        {
+          "issa": "Peterschmitt, Michel",
+          "semanticScholar": "M. Peterschmitt",
+          "triple": "<http://data-issa.cirad.fr/article/549390> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/87506788> ."
+        },
+        {
+          "issa": "Aziadekey, M.",
+          "semanticScholar": "M. Aziadekey",
+          "triple": "<http://data-issa.cirad.fr/article/549390> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/2097961904> ."
+        },
+        {
+          "issa": "Gumedzoe, M.Y.D.",
+          "semanticScholar": "Y. M. Gumedzo\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/549390> <http://purl.org/dc/elements/1.1/creator> <https://www.semanticscholar.org/author/90634517> ."
+        }
+      ]
+    }
+  ]
+}
