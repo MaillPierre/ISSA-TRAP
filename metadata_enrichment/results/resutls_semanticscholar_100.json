@@ -3,6 +3,7 @@
   "articles": [
     {
       "doi": "10.19182/remvt.9733",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Riad, Fouad",
@@ -53,6 +54,7 @@
     },
     {
       "doi": "10.37370/raizes.1999.v.173",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Sabourin, Eric",
@@ -63,6 +65,7 @@
     },
     {
       "doi": "10.1051/fruits:2008027",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Chillet, Marc",
@@ -83,6 +86,7 @@
     },
     {
       "doi": "10.1684/agr.2012.0548",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Jo\u00ebt, Thierry",
@@ -113,6 +117,7 @@
     },
     {
       "doi": "10.1684/agr.2013.0650",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Mieulet, Delphine",
@@ -178,6 +183,7 @@
     },
     {
       "doi": "10.1590/S0100-67622014000200017",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Chaix, Gilles",
@@ -218,6 +224,7 @@
     },
     {
       "doi": "10.4000/economierurale.5813",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Lemeilleur, Sylvaine",
@@ -233,6 +240,7 @@
     },
     {
       "doi": "10.1186/s12862-022-01977-z",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Boinot, S\u00e9bastien",
@@ -268,6 +276,7 @@
     },
     {
       "doi": "10.1080/26395916.2022.2043940",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "M\u00fanera-Rold\u00e1n, Claudia",
@@ -293,6 +302,7 @@
     },
     {
       "doi": "10.20870/productions-animales.2000.13.4.3784",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Doreau, Michel",
@@ -313,6 +323,7 @@
     },
     {
       "doi": "10.19182/remvt.9734",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Nasser, B.",
@@ -333,6 +344,7 @@
     },
     {
       "doi": "10.1590/S0103-49792010000100010",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Sabourin, Eric",
@@ -343,6 +355,7 @@
     },
     {
       "doi": "10.37370/raizes.2005.v24.244",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Sabourin, Eric",
@@ -363,6 +376,7 @@
     },
     {
       "doi": "10.1684/agr.2009.0370",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Daniel, Maud",
@@ -383,6 +397,7 @@
     },
     {
       "doi": "10.3917/eg.301.0013",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Bonnefoy, Jean-Luc",
@@ -403,6 +418,7 @@
     },
     {
       "doi": "10.1016/j.ijid.2018.11.146",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Thongyan, Suporn",
@@ -438,6 +454,7 @@
     },
     {
       "doi": "10.1023/A:1001880030275",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Dolezelova, M.",
@@ -468,6 +485,7 @@
     },
     {
       "doi": "10.1029/96JD01621",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "B\u00e9gu\u00e9, Agn\u00e8s",
@@ -483,6 +501,7 @@
     },
     {
       "doi": "10.1128/AEM.60.11.3974-3980.1994",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Prin, Yves",
@@ -518,6 +537,7 @@
     },
     {
       "doi": "10.1128/AEM.61.12.4343-4347.1995",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Bossy, J.P.",
@@ -558,6 +578,7 @@
     },
     {
       "doi": "10.1007/BF00202672",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Riccardi, F.",
@@ -578,6 +599,7 @@
     },
     {
       "doi": "10.1128/AEM.61.6.2086-2092.1995",
+      "authors_matched_rate": 1.0,
       "authors": [
         {
           "issa": "Luo, K.",

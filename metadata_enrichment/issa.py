@@ -10,6 +10,8 @@ from sparql import select
 import json
 # service
 from services import open_alex, semantic_scholar
+# statistic
+from statistic import define_statistics_from_json_file, save_statistics
 
 # set SPARQL service : ISSA endpoint
 # issa_endpoint = "http://erebe-vm20.i3s.unice.fr:8890/sparql"
@@ -84,9 +86,15 @@ def save_results(results: dict, service: str):
             for author in article["authors"]:
                 ttl_file.write(str(author["triple"]) + "\n")
         ttl_file.close()
+    # Statistics
+    print("save statistics from experiments ...")
+    with open("results/triples_{}.nt".format(service), mode="r") as fp:
+        n_triples = len(fp.readlines())
+    stats = define_statistics_from_json_file(results, n_triples)
+    save_statistics(stats, "results/stats_{}.json".format(service))
     print("Done !")
 
 
 if __name__ == '__main__':
-    main(open_alex.MODE)
+    main(semantic_scholar.MODE)
     # main(semantic_scholar.MODE)
