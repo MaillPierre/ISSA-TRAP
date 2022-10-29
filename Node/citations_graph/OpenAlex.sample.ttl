@@ -1,0 +1,114 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix n0: <http://data-issa.cirad.fr/article/>.
+@prefix open: <https://openalex.org/>.
+@prefix n1: <https://doi.org/10.1007/>.
+@prefix n2: <https://doi.org/10.1590/>.
+@prefix n3: <https://doi.org/10.1186/>.
+@prefix cit: <http://data-issa.cirad.fr/citation/>.
+@prefix cito: <http://purl.org/spar/cito#>.
+
+n0:476911
+    owl:sameAs
+        <https://doi.org/10.20870/productions-animales.2000.13.4.3784>,
+        open:W102253320 .
+n0:477459 owl:sameAs <https://doi.org/10.19182/remvt.9733>, open:W2215122542 .
+
+n0:477462 owl:sameAs <https://doi.org/10.19182/remvt.9734>, open:W2281342977 .
+
+n0:481473
+owl:sameAs <https://doi.org/10.37370/raizes.1999.v.173>, open:W1475391057 .
+n0:537503
+owl:sameAs <https://doi.org/10.37370/raizes.2005.v24.244>, open:W3016046542 .
+n0:546677 owl:sameAs <https://doi.org/10.1051/fruits:2008027>, open:W2090049360 .
+
+n0:570896
+    dct:bibliographicCitation n1:s00122-003-1255-7;
+    owl:sameAs <https://doi.org/10.1684/agr.2013.0650>, open:W1548581231 .
+n0:573576 owl:sameAs n2:s0100-67622014000200017, open:W2060775217 .
+
+n0:588487
+owl:sameAs <https://doi.org/10.4000/economierurale.5813>, open:W2895060395 .
+n0:600375
+    dct:bibliographicCitation
+        n1:s00374-018-1332-3, n1:s10457-016-9901-7,
+        <https://doi.org/10.1016/j.agee.2018.10.017>,
+        <https://doi.org/10.1016/j.agee.2019.106584>,
+        <https://doi.org/10.1111/gfs.12161>,
+        <https://doi.org/10.1111/j.1365-2664.2011.02048.x>,
+        <https://doi.org/10.1126/science.aaw1620>,
+        <https://doi.org/10.1371/journal.pbio.0040001>,
+        <https://doi.org/10.1371/journal.pone.0246919>;
+    owl:sameAs n3:s12862-022-01977-z, open:W4214932833 .
+cit:155e32ca-704c-444b-b94a-408064195157
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity <https://doi.org/10.1016/j.agee.2019.106584>;
+    cito:hasCitingEntity n0:600375;
+    prov:generatedAtTime "2022-10-29T10:24:31.560Z"^^xsd:datetime;
+    prov:wasAssociatedWith open: .
+cit:196feabd-0c09-4241-b512-2f68c995be9b
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n1:s00122-003-1255-7;
+    cito:hasCitingEntity n0:570896;
+    prov:generatedAtTime "2022-10-29T10:24:31.479Z"^^xsd:datetime;
+    prov:wasAssociatedWith open: .
+cit:284acd3c-a93c-4cda-98cc-516adebcd294
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity <https://doi.org/10.1111/gfs.12161>;
+    cito:hasCitingEntity n0:600375;
+    prov:generatedAtTime "2022-10-29T10:24:31.482Z"^^xsd:datetime;
+    prov:wasAssociatedWith open: .
+cit:2cf78715-da9e-4668-b981-d8456153fa85
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n1:s10457-016-9901-7;
+    cito:hasCitingEntity n0:600375;
+    prov:generatedAtTime "2022-10-29T10:24:31.435Z"^^xsd:datetime;
+    prov:wasAssociatedWith open: .
+cit:3802ec60-76c4-451f-96f5-9ff67c2865a0
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity n1:s00374-018-1332-3;
+    cito:hasCitingEntity n0:600375;
+    prov:generatedAtTime "2022-10-29T10:24:31.476Z"^^xsd:datetime;
+    prov:wasAssociatedWith open: .
+cit:6418f208-bf26-4c43-a747-12da23d7b0ca
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity <https://doi.org/10.1126/science.aaw1620>;
+    cito:hasCitingEntity n0:600375;
+    prov:generatedAtTime "2022-10-29T10:24:31.561Z"^^xsd:datetime;
+    prov:wasAssociatedWith open: .
+cit:a9d3c65b-6096-4364-8fdb-dde01fc99204
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity <https://doi.org/10.1371/journal.pbio.0040001>;
+    cito:hasCitingEntity n0:600375;
+    prov:generatedAtTime "2022-10-29T10:24:31.484Z"^^xsd:datetime;
+    prov:wasAssociatedWith open: .
+cit:c128fb1e-68dc-4d1c-b777-dc925ba61d4d
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity <https://doi.org/10.1371/journal.pone.0246919>;
+    cito:hasCitingEntity n0:600375;
+    prov:generatedAtTime "2022-10-29T10:24:31.450Z"^^xsd:datetime;
+    prov:wasAssociatedWith open: .
+cit:d3f99bd8-3c66-47b2-baec-acd4419d67fc
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity <https://doi.org/10.1016/j.agee.2018.10.017>;
+    cito:hasCitingEntity n0:600375;
+    prov:generatedAtTime "2022-10-29T10:24:31.558Z"^^xsd:datetime;
+    prov:wasAssociatedWith open: .
+cit:e94e8a29-7037-431e-9236-816b54a9a3f2
+    a cito:Citation;
+    cito:hasCitationCharacterization dct:bibliographicCitation;
+    cito:hasCitedEntity <https://doi.org/10.1111/j.1365-2664.2011.02048.x>;
+    cito:hasCitingEntity n0:600375;
+    prov:generatedAtTime "2022-10-29T10:24:31.442Z"^^xsd:datetime;
+    prov:wasAssociatedWith open: .
