@@ -40,8 +40,6 @@ def main(doi_with_authors: dict, issa_uri_by_dois: dict):
         print("# " + str(len(authors_from_semantic_scholar_with_url)) + " authors have an URL !")
         article["authors_matched_rate"] = len(authors_from_semantic_scholar_with_url) / \
                                           len(authors_from_semantic_scholar)
-        print(str(len(authors_from_semantic_scholar_with_url)) + " / " +
-                                          str(len(authors_from_semantic_scholar)))
         article["authors"] = []
         if len(authors_from_semantic_scholar_with_url) != 0:
             # compute the distance between them and bind them

@@ -1,13 +1,12 @@
 {
-  "n_articles": 22,
-  "n_triples": 82,
-  "n_articles_without_authors_rate": 0.18181818181818182,
+  "n_triples": 324,
+  "articles_without_authors_rate": 0.3541666666666667,
   "authors": [
     {
-      "n_authors": 41,
-      "mean_n_authors": 1.8636363636363635,
-      "std_n_authors": 1.8846612565519705,
-      "mean_matched_authors_rate": 0.41278860028860026
+      "n_authors": 162,
+      "mean_n_authors": 1.6875,
+      "std_n_authors": 2.3589136661205994,
+      "mean_matched_authors_rate": 0.27163264062935116
     }
   ]
 }

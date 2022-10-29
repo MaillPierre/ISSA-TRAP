@@ -80,3 +80,245 @@
 <https://orcid.org/0000-0002-8926-3119> <http://www.w3.org/2000/01/rdf-schema#label> 'Frutos, Roger' .
 <http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-6864-2550> .
 <https://orcid.org/0000-0001-6864-2550> <http://www.w3.org/2000/01/rdf-schema#label> 'Adang, M.J.' .
+<http://data-issa.cirad.fr/article/391566> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-3109-2588> .
+<https://orcid.org/0000-0003-3109-2588> <http://www.w3.org/2000/01/rdf-schema#label> 'Chang, C.' .
+<http://data-issa.cirad.fr/article/391566> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-6546-2631> .
+<https://orcid.org/0000-0002-6546-2631> <http://www.w3.org/2000/01/rdf-schema#label> 'Dal, S.M.' .
+<http://data-issa.cirad.fr/article/391566> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2273-2304> .
+<https://orcid.org/0000-0002-2273-2304> <http://www.w3.org/2000/01/rdf-schema#label> 'Gill, S.S.' .
+<http://data-issa.cirad.fr/article/416918> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-3706-0045> .
+<https://orcid.org/0000-0002-3706-0045> <http://www.w3.org/2000/01/rdf-schema#label> 'Prin, Yves' .
+<http://data-issa.cirad.fr/article/465062> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-0203-1305> .
+<https://orcid.org/0000-0003-0203-1305> <http://www.w3.org/2000/01/rdf-schema#label> 'Jongejan, Frans' .
+<http://data-issa.cirad.fr/article/477501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-9884-8146> .
+<https://orcid.org/0000-0001-9884-8146> <http://www.w3.org/2000/01/rdf-schema#label> 'Ali, Z.' .
+<http://data-issa.cirad.fr/article/477831> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-4439-3454> .
+<https://orcid.org/0000-0002-4439-3454> <http://www.w3.org/2000/01/rdf-schema#label> 'Chaintreuil, Clémence' .
+<http://data-issa.cirad.fr/article/477831> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-4190-1732> .
+<https://orcid.org/0000-0002-4190-1732> <http://www.w3.org/2000/01/rdf-schema#label> 'Giraud, Eric' .
+<http://data-issa.cirad.fr/article/477831> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2196-6352> .
+<https://orcid.org/0000-0002-2196-6352> <http://www.w3.org/2000/01/rdf-schema#label> 'Prin, Yves' .
+<http://data-issa.cirad.fr/article/480109> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1573-6833> .
+<https://orcid.org/0000-0002-1573-6833> <http://www.w3.org/2000/01/rdf-schema#label> 'Roger, François' .
+<http://data-issa.cirad.fr/article/480109> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-9223-4204> .
+<https://orcid.org/0000-0002-9223-4204> <http://www.w3.org/2000/01/rdf-schema#label> 'Bastos, A.' .
+<http://data-issa.cirad.fr/article/481836> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-8360-2941> .
+<https://orcid.org/0000-0002-8360-2941> <http://www.w3.org/2000/01/rdf-schema#label> 'Thiaucourt, François' .
+<http://data-issa.cirad.fr/article/488770> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5642-7316> .
+<https://orcid.org/0000-0002-5642-7316> <http://www.w3.org/2000/01/rdf-schema#label> 'Ollivier, Jean' .
+<http://data-issa.cirad.fr/article/488770> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-4838-8318> .
+<https://orcid.org/0000-0003-4838-8318> <http://www.w3.org/2000/01/rdf-schema#label> 'Beaudoin-Ollivier, Laurence' .
+<http://data-issa.cirad.fr/article/511152> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1665-7894> .
+<https://orcid.org/0000-0003-1665-7894> <http://www.w3.org/2000/01/rdf-schema#label> 'Randig, Onivaldo' .
+<http://data-issa.cirad.fr/article/511152> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-2048-9651> .
+<https://orcid.org/0000-0003-2048-9651> <http://www.w3.org/2000/01/rdf-schema#label> 'Randig, Onivaldo' .
+<http://data-issa.cirad.fr/article/515692> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-0152-6832> .
+<https://orcid.org/0000-0003-0152-6832> <http://www.w3.org/2000/01/rdf-schema#label> 'Caro, Yanis' .
+<http://data-issa.cirad.fr/article/515692> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-3651-4022> .
+<https://orcid.org/0000-0003-3651-4022> <http://www.w3.org/2000/01/rdf-schema#label> 'Caro, Yanis' .
+<http://data-issa.cirad.fr/article/515692> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1685-1494> .
+<https://orcid.org/0000-0003-1685-1494> <http://www.w3.org/2000/01/rdf-schema#label> 'Villeneuve, Pierre' .
+<http://data-issa.cirad.fr/article/516404> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5655-3400> .
+<https://orcid.org/0000-0002-5655-3400> <http://www.w3.org/2000/01/rdf-schema#label> 'Collignan, Antoine' .
+<http://data-issa.cirad.fr/article/516404> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-7103-2304> .
+<https://orcid.org/0000-0002-7103-2304> <http://www.w3.org/2000/01/rdf-schema#label> 'Bohuon, Philippe' .
+<http://data-issa.cirad.fr/article/519928> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-3434-3541> .
+<https://orcid.org/0000-0002-3434-3541> <http://www.w3.org/2000/01/rdf-schema#label> 'Cardinale, Eric' .
+<http://data-issa.cirad.fr/article/521315> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-8231-3083> .
+<https://orcid.org/0000-0001-8231-3083> <http://www.w3.org/2000/01/rdf-schema#label> 'Vall, Eric' .
+<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-5736-1112> .
+<https://orcid.org/0000-0001-5736-1112> <http://www.w3.org/2000/01/rdf-schema#label> 'Reichstein, Markus' .
+<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1319-142X> .
+<https://orcid.org/0000-0002-1319-142X> <http://www.w3.org/2000/01/rdf-schema#label> 'Roupsard, Olivier' .
+<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-3557-3496> .
+<https://orcid.org/0000-0002-3557-3496> <http://www.w3.org/2000/01/rdf-schema#label> 'Ourcival, Jean-Marc' .
+<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-5869-8382> .
+<https://orcid.org/0000-0001-5869-8382> <http://www.w3.org/2000/01/rdf-schema#label> 'Rambal, Serge' .
+<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1474-8143> .
+<https://orcid.org/0000-0003-1474-8143> <http://www.w3.org/2000/01/rdf-schema#label> 'Miglietta, Franco' .
+<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-8804-7935> .
+<https://orcid.org/0000-0001-8804-7935> <http://www.w3.org/2000/01/rdf-schema#label> 'Peressotti, Alessandro' .
+<http://data-issa.cirad.fr/article/525671> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-6756-5634> .
+<https://orcid.org/0000-0002-6756-5634> <http://www.w3.org/2000/01/rdf-schema#label> 'Valentini, Riccardo' .
+<http://data-issa.cirad.fr/article/528358> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-3713-2125> .
+<https://orcid.org/0000-0002-3713-2125> <http://www.w3.org/2000/01/rdf-schema#label> 'Diop, M.' .
+<http://data-issa.cirad.fr/article/534265> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-6318-1353> .
+<https://orcid.org/0000-0001-6318-1353> <http://www.w3.org/2000/01/rdf-schema#label> 'Imbert, Eric' .
+<http://data-issa.cirad.fr/article/539023> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-6394-5920> .
+<https://orcid.org/0000-0002-6394-5920> <http://www.w3.org/2000/01/rdf-schema#label> 'Bastianelli, Denis' .
+<http://data-issa.cirad.fr/article/539023> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-6375-5406> .
+<https://orcid.org/0000-0002-6375-5406> <http://www.w3.org/2000/01/rdf-schema#label> 'Lescoat, Philippe' .
+<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5459-3425> .
+<https://orcid.org/0000-0002-5459-3425> <http://www.w3.org/2000/01/rdf-schema#label> 'Wanchana, Samart' .
+<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-8512-144X> .
+<https://orcid.org/0000-0001-8512-144X> <http://www.w3.org/2000/01/rdf-schema#label> 'Ruiz, Manuel' .
+<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-0284-1885> .
+<https://orcid.org/0000-0003-0284-1885> <http://www.w3.org/2000/01/rdf-schema#label> 'Rouard, Mathieu' .
+<http://data-issa.cirad.fr/article/542255> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-4447-5978> .
+<https://orcid.org/0000-0002-4447-5978> <http://www.w3.org/2000/01/rdf-schema#label> 'Bruskiewich, Richard' .
+<http://data-issa.cirad.fr/article/542388> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-7979-3100> .
+<https://orcid.org/0000-0001-7979-3100> <http://www.w3.org/2000/01/rdf-schema#label> 'Ceccato, Pietro' .
+<http://data-issa.cirad.fr/article/542388> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-9729-2393> .
+<https://orcid.org/0000-0001-9729-2393> <http://www.w3.org/2000/01/rdf-schema#label> 'Chevalier, Véronique' .
+<http://data-issa.cirad.fr/article/543258> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-9729-2393> .
+<https://orcid.org/0000-0001-9729-2393> <http://www.w3.org/2000/01/rdf-schema#label> 'Chevalier, Véronique' .
+<http://data-issa.cirad.fr/article/543258> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5826-5242> .
+<https://orcid.org/0000-0002-5826-5242> <http://www.w3.org/2000/01/rdf-schema#label> 'Lancelot, Renaud' .
+<http://data-issa.cirad.fr/article/543267> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-8360-2941> .
+<https://orcid.org/0000-0002-8360-2941> <http://www.w3.org/2000/01/rdf-schema#label> 'Thiaucourt, François' .
+<http://data-issa.cirad.fr/article/543275> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-8555-9003> .
+<https://orcid.org/0000-0001-8555-9003> <http://www.w3.org/2000/01/rdf-schema#label> 'Blanchard, Alain' .
+<http://data-issa.cirad.fr/article/543275> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-8360-2941> .
+<https://orcid.org/0000-0002-8360-2941> <http://www.w3.org/2000/01/rdf-schema#label> 'Thiaucourt, François' .
+<http://data-issa.cirad.fr/article/544684> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1319-142X> .
+<https://orcid.org/0000-0002-1319-142X> <http://www.w3.org/2000/01/rdf-schema#label> 'Roupsard, Olivier' .
+<http://data-issa.cirad.fr/article/544684> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-9857-3269> .
+<https://orcid.org/0000-0001-9857-3269> <http://www.w3.org/2000/01/rdf-schema#label> 'Jourdan, Christophe' .
+<http://data-issa.cirad.fr/article/544686> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1319-142X> .
+<https://orcid.org/0000-0002-1319-142X> <http://www.w3.org/2000/01/rdf-schema#label> 'Roupsard, Olivier' .
+<http://data-issa.cirad.fr/article/544686> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1145-2390> .
+<https://orcid.org/0000-0002-1145-2390> <http://www.w3.org/2000/01/rdf-schema#label> 'Henry, Matieu' .
+<http://data-issa.cirad.fr/article/544686> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5592-6789> .
+<https://orcid.org/0000-0002-5592-6789> <http://www.w3.org/2000/01/rdf-schema#label> 'Labouisse, Jean-Pierre' .
+<http://data-issa.cirad.fr/article/545317> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-7668-1971> .
+<https://orcid.org/0000-0001-7668-1971> <http://www.w3.org/2000/01/rdf-schema#label> 'Cappelle, Julien' .
+<http://data-issa.cirad.fr/article/545317> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-0217-5907> .
+<https://orcid.org/0000-0003-0217-5907> <http://www.w3.org/2000/01/rdf-schema#label> 'Dodman, Tim' .
+<http://data-issa.cirad.fr/article/545746> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1243-0887> .
+<https://orcid.org/0000-0003-1243-0887> <http://www.w3.org/2000/01/rdf-schema#label> 'Chillet, Marc' .
+<http://data-issa.cirad.fr/article/545746> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1573-0260> .
+<https://orcid.org/0000-0003-1573-0260> <http://www.w3.org/2000/01/rdf-schema#label> 'Hubert, Olivier' .
+<http://data-issa.cirad.fr/article/545747> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1573-0260> .
+<https://orcid.org/0000-0003-1573-0260> <http://www.w3.org/2000/01/rdf-schema#label> 'Hubert, Olivier' .
+<http://data-issa.cirad.fr/article/545749> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1243-0887> .
+<https://orcid.org/0000-0003-1243-0887> <http://www.w3.org/2000/01/rdf-schema#label> 'Chilin-Charles, Yolande' .
+<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-0217-5907> .
+<https://orcid.org/0000-0003-0217-5907> <http://www.w3.org/2000/01/rdf-schema#label> 'Dodman, Tim' .
+<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-7668-1971> .
+<https://orcid.org/0000-0001-7668-1971> <http://www.w3.org/2000/01/rdf-schema#label> 'Cappelle, Julien' .
+<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-6564-4689> .
+<https://orcid.org/0000-0002-6564-4689> <http://www.w3.org/2000/01/rdf-schema#label> 'Monne, Isabella' .
+<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-8213-5472> .
+<https://orcid.org/0000-0002-8213-5472> <http://www.w3.org/2000/01/rdf-schema#label> 'Fusaro, Alice' .
+<http://data-issa.cirad.fr/article/546007> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-7072-2581> .
+<https://orcid.org/0000-0002-7072-2581> <http://www.w3.org/2000/01/rdf-schema#label> 'Capua, Ilaria' .
+<http://data-issa.cirad.fr/article/546483> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2047-1091> .
+<https://orcid.org/0000-0002-2047-1091> <http://www.w3.org/2000/01/rdf-schema#label> 'Hafidi, Abdellatif' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-4447-5978> .
+<https://orcid.org/0000-0002-4447-5978> <http://www.w3.org/2000/01/rdf-schema#label> 'Bruskiewich, Richard' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-8153-276X> .
+<https://orcid.org/0000-0001-8153-276X> <http://www.w3.org/2000/01/rdf-schema#label> 'Ruiz, Manuel' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-0284-1885> .
+<https://orcid.org/0000-0003-0284-1885> <http://www.w3.org/2000/01/rdf-schema#label> 'Rouard, Mathieu' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-4608-9077> .
+<https://orcid.org/0000-0002-4608-9077> <http://www.w3.org/2000/01/rdf-schema#label> 'Simon, Reinhard' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-8512-144X> .
+<https://orcid.org/0000-0001-8512-144X> <http://www.w3.org/2000/01/rdf-schema#label> 'Ruiz, Manuel' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5459-3425> .
+<https://orcid.org/0000-0002-5459-3425> <http://www.w3.org/2000/01/rdf-schema#label> 'Wanchana, Samart' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-0091-7981> .
+<https://orcid.org/0000-0002-0091-7981> <http://www.w3.org/2000/01/rdf-schema#label> 'Shah, Trushar' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-8120-8409> .
+<https://orcid.org/0000-0001-8120-8409> <http://www.w3.org/2000/01/rdf-schema#label> 'Dereeper, Alexis' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-8816-4258> .
+<https://orcid.org/0000-0002-8816-4258> <http://www.w3.org/2000/01/rdf-schema#label> 'Doi, Koji' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-4224-2433> .
+<https://orcid.org/0000-0002-4224-2433> <http://www.w3.org/2000/01/rdf-schema#label> 'Senger, Martin' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-7602-0487> .
+<https://orcid.org/0000-0001-7602-0487> <http://www.w3.org/2000/01/rdf-schema#label> 'Costa, Marcos' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1005-8383> .
+<https://orcid.org/0000-0002-1005-8383> <http://www.w3.org/2000/01/rdf-schema#label> 'Takeya, Masaru' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-5076-2941> .
+<https://orcid.org/0000-0001-5076-2941> <http://www.w3.org/2000/01/rdf-schema#label> 'Senger, Martin' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-6258-1128> .
+<https://orcid.org/0000-0001-6258-1128> <http://www.w3.org/2000/01/rdf-schema#label> 'Doi, Koji' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-7334-7852> .
+<https://orcid.org/0000-0002-7334-7852> <http://www.w3.org/2000/01/rdf-schema#label> 'Doi, Koji' .
+<http://data-issa.cirad.fr/article/546501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-9309-2570> .
+<https://orcid.org/0000-0001-9309-2570> <http://www.w3.org/2000/01/rdf-schema#label> 'Takeya, Masaru' .
+<http://data-issa.cirad.fr/article/546898> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-7252-7050> .
+<https://orcid.org/0000-0002-7252-7050> <http://www.w3.org/2000/01/rdf-schema#label> 'Silva, T.F.' .
+<http://data-issa.cirad.fr/article/546973> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-3734-0407> .
+<https://orcid.org/0000-0003-3734-0407> <http://www.w3.org/2000/01/rdf-schema#label> 'Guédon, Yann' .
+<http://data-issa.cirad.fr/article/546973> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1202-8460> .
+<https://orcid.org/0000-0002-1202-8460> <http://www.w3.org/2000/01/rdf-schema#label> 'Godin, Christophe' .
+<http://data-issa.cirad.fr/article/546973> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-6568-6504> .
+<https://orcid.org/0000-0002-6568-6504> <http://www.w3.org/2000/01/rdf-schema#label> 'Laplaze, Laurent' .
+<http://data-issa.cirad.fr/article/547539> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1243-0887> .
+<https://orcid.org/0000-0003-1243-0887> <http://www.w3.org/2000/01/rdf-schema#label> 'Ganry, Jacky' .
+<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-9393-5347> .
+<https://orcid.org/0000-0001-9393-5347> <http://www.w3.org/2000/01/rdf-schema#label> 'Oura, Chris' .
+<http://data-issa.cirad.fr/article/547596> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-3845-3016> .
+<https://orcid.org/0000-0003-3845-3016> <http://www.w3.org/2000/01/rdf-schema#label> 'Oura, Chris' .
+<http://data-issa.cirad.fr/article/547691> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1849-1269> .
+<https://orcid.org/0000-0003-1849-1269> <http://www.w3.org/2000/01/rdf-schema#label> 'Droc, Gaëtan' .
+<http://data-issa.cirad.fr/article/547691> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2469-310X> .
+<https://orcid.org/0000-0002-2469-310X> <http://www.w3.org/2000/01/rdf-schema#label> 'Perin, Christophe' .
+<http://data-issa.cirad.fr/article/547691> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2923-9790> .
+<https://orcid.org/0000-0002-2923-9790> <http://www.w3.org/2000/01/rdf-schema#label> 'Larmande, Pierre' .
+<http://data-issa.cirad.fr/article/547841> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-7927-819X> .
+<https://orcid.org/0000-0002-7927-819X> <http://www.w3.org/2000/01/rdf-schema#label> 'Lotfalizadeh, Hosseinali' .
+<http://data-issa.cirad.fr/article/547841> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-8614-6665> .
+<https://orcid.org/0000-0001-8614-6665> <http://www.w3.org/2000/01/rdf-schema#label> 'Rasplus, Jean-Yves' .
+<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2312-2073> .
+<https://orcid.org/0000-0002-2312-2073> <http://www.w3.org/2000/01/rdf-schema#label> 'Vernière, Christian' .
+<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2516-2108> .
+<https://orcid.org/0000-0002-2516-2108> <http://www.w3.org/2000/01/rdf-schema#label> 'Brisse, Sylvain' .
+<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-8046-585X> .
+<https://orcid.org/0000-0001-8046-585X> <http://www.w3.org/2000/01/rdf-schema#label> 'Boutry, Sébastien' .
+<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2943-0827> .
+<https://orcid.org/0000-0002-2943-0827> <http://www.w3.org/2000/01/rdf-schema#label> 'Gagnevin, Lionel' .
+<http://data-issa.cirad.fr/article/548014> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-3175-9795> .
+<https://orcid.org/0000-0002-3175-9795> <http://www.w3.org/2000/01/rdf-schema#label> 'Pruvost, Olivier' .
+<http://data-issa.cirad.fr/article/548148> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-7793-3445> .
+<https://orcid.org/0000-0002-7793-3445> <http://www.w3.org/2000/01/rdf-schema#label> 'Dollet, Michel' .
+<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-0100-5511> .
+<https://orcid.org/0000-0002-0100-5511> <http://www.w3.org/2000/01/rdf-schema#label> 'Argout, Xavier' .
+<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-7562-3454> .
+<https://orcid.org/0000-0001-7562-3454> <http://www.w3.org/2000/01/rdf-schema#label> 'Wincker, Patrick' .
+<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-4037-1554> .
+<https://orcid.org/0000-0003-4037-1554> <http://www.w3.org/2000/01/rdf-schema#label> 'Sabau, Xavier' .
+<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-7618-7831> .
+<https://orcid.org/0000-0002-7618-7831> <http://www.w3.org/2000/01/rdf-schema#label> 'Babin, Régis' .
+<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-2118-7102> .
+<https://orcid.org/0000-0003-2118-7102> <http://www.w3.org/2000/01/rdf-schema#label> 'Courtois, Brigitte' .
+<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-3753-1193> .
+<https://orcid.org/0000-0002-3753-1193> <http://www.w3.org/2000/01/rdf-schema#label> 'Babin, Régis' .
+<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-0018-9846> .
+<https://orcid.org/0000-0003-0018-9846> <http://www.w3.org/2000/01/rdf-schema#label> 'Ruiz, Manuel' .
+<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-8153-276X> .
+<https://orcid.org/0000-0001-8153-276X> <http://www.w3.org/2000/01/rdf-schema#label> 'Ruiz, Manuel' .
+<http://data-issa.cirad.fr/article/548501> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-6411-7310> .
+<https://orcid.org/0000-0001-6411-7310> <http://www.w3.org/2000/01/rdf-schema#label> 'Lanaud, Claire' .
+<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1432-3129> .
+<https://orcid.org/0000-0003-1432-3129> <http://www.w3.org/2000/01/rdf-schema#label> 'Fernandez, Diana' .
+<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2229-886X> .
+<https://orcid.org/0000-0002-2229-886X> <http://www.w3.org/2000/01/rdf-schema#label> 'Santos, Patricia' .
+<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1628-7128> .
+<https://orcid.org/0000-0002-1628-7128> <http://www.w3.org/2000/01/rdf-schema#label> 'Ribeiro, Ana' .
+<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-9676-1036> .
+<https://orcid.org/0000-0002-9676-1036> <http://www.w3.org/2000/01/rdf-schema#label> 'Guerra-Guimarães, Leonor' .
+<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-9556-6311> .
+<https://orcid.org/0000-0001-9556-6311> <http://www.w3.org/2000/01/rdf-schema#label> 'Ribeiro, Ana' .
+<http://data-issa.cirad.fr/article/548681> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-0100-5511> .
+<https://orcid.org/0000-0002-0100-5511> <http://www.w3.org/2000/01/rdf-schema#label> 'Argout, Xavier' .
+<http://data-issa.cirad.fr/article/548796> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-9096-090X> .
+<https://orcid.org/0000-0001-9096-090X> <http://www.w3.org/2000/01/rdf-schema#label> 'Bugaud, Christophe' .
+<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-9460-4638> .
+<https://orcid.org/0000-0001-9460-4638> <http://www.w3.org/2000/01/rdf-schema#label> 'Dievart, Anne' .
+<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-7808-9330> .
+<https://orcid.org/0000-0001-7808-9330> <http://www.w3.org/2000/01/rdf-schema#label> 'Breitler, Jean-Christophe' .
+<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-2760-2864> .
+<https://orcid.org/0000-0003-2760-2864> <http://www.w3.org/2000/01/rdf-schema#label> 'Guiderdoni, Emmanuel' .
+<http://data-issa.cirad.fr/article/549326> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2469-310X> .
+<https://orcid.org/0000-0002-2469-310X> <http://www.w3.org/2000/01/rdf-schema#label> 'Perin, Christophe' .
+<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-9334-5862> .
+<https://orcid.org/0000-0002-9334-5862> <http://www.w3.org/2000/01/rdf-schema#label> 'Darrasse, Armelle' .
+<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-2735-176X> .
+<https://orcid.org/0000-0003-2735-176X> <http://www.w3.org/2000/01/rdf-schema#label> 'Meyer, Damien' .
+<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-9065-0434> .
+<https://orcid.org/0000-0001-9065-0434> <http://www.w3.org/2000/01/rdf-schema#label> 'Durand, Karine' .
+<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-3590-6454> .
+<https://orcid.org/0000-0003-3590-6454> <http://www.w3.org/2000/01/rdf-schema#label> 'Manceau, Charles' .
+<http://data-issa.cirad.fr/article/549366> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1442-917X> .
+<https://orcid.org/0000-0002-1442-917X> <http://www.w3.org/2000/01/rdf-schema#label> 'Manceau, Charles' .

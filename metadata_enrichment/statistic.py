@@ -19,7 +19,7 @@ def define_statistics_from_json_file(data: dict, n_triples: int):
             n_articles_without_authors += 1
     # Le nombre d'articles
     len_list_n_author = len(list_n_author)
-    statistics["n_doi"] = len_list_n_author
+    # statistics["n_doi"] = len_list_n_author
     # Le nombre de triples à importer dans la base
     statistics["n_triples"] = n_triples
     # Le nombre d'articles pour lesquelles nous n'avons pu de correspondance

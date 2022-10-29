@@ -19,34 +19,24 @@ issa_endpoint = "https://data-issa.cirad.fr/sparql"
 issa_sparql = SPARQLWrapper(issa_endpoint)
 
 
-def get_DOI_with_authors_from_issa(**kwargs):
-    """Return a list of authors (as list of str) using ISSA SPARQL Endpoint
-    Structure: {"doi_1": ["author_1", ..., "author_n"], ...}"""
+def get_articles(**kwargs):
     limit = kwargs.get("limit")
     offset = kwargs.get("offset")
     if limit is not None:
         if offset is not None:
-            query = select(ISSA_PREFIX, "distinct ?doi ?author", "?article bibo:doi ?doi . ?article dce:creator ?author"
+            query = select(ISSA_PREFIX, "distinct ?article", "?article bibo:doi ?doi ."
                            , limit=limit, offset=offset)
         else:
-            query = select(ISSA_PREFIX, "distinct ?doi ?author", "?article bibo:doi ?doi . ?article dce:creator ?author"
+            query = select(ISSA_PREFIX, "distinct ?article", "?article bibo:doi ?doi ."
                            , limit=limit)
     else:
-        query = select(ISSA_PREFIX, "distinct ?doi ?author", "?article bibo:doi ?doi . ?article dce:creator ?author")
+        query = select(ISSA_PREFIX, "distinct ?article", "?article bibo:doi ?doi .")
     issa_sparql.setQuery(query)
     issa_sparql.setReturnFormat(JSON)
-    lists = []
+    res = []
     for result in json.load(issa_sparql.query().response)["results"]["bindings"]:
-        lists.append((result["doi"]["value"], result["author"]["value"]))
-    # Clean list
-    results = dict()
-    for doi, author in lists:
-        if str(doi) not in results.keys():
-            results[str(doi)] = [author]
-        else:
-            results[str(doi)] += [author]
-    # print(results)
-    return results
+        res.append(result["article"]["value"])
+    return res
 
 
 def get_article_issa_from_DOI(doi: str):
@@ -56,9 +46,47 @@ def get_article_issa_from_DOI(doi: str):
     return json.load(issa_sparql.query().response)["results"]["bindings"][0]["article"]["value"]
 
 
-def main(mode: str):
-    print("Alignement des auteurs pour 100 articles du jeu de données ISSA: " + issa_endpoint)
-    dois = get_DOI_with_authors_from_issa(limit=100)
+def get_DOI_with_authors_from_article(article):
+    """Return a list of authors (as list of str) using ISSA SPARQL Endpoint
+    Structure: {"doi_1": ["author_1", ..., "author_n"], ...}"""
+    # values = "VALUES ?article { "
+    # for article in articles:
+    #     values += "<" + article + "> "
+    # values += " }"
+    query = select(ISSA_PREFIX, "distinct ?doi ?author", "<" + article + "> bibo:doi ?doi . <" + article +
+                   "> dce:creator ?author . ")
+    # print(query)
+    issa_sparql.setQuery(query)
+    issa_sparql.setReturnFormat(JSON)
+    # res = json.load(issa_sparql.query().response)["results"]["bindings"]
+    # print(res)
+    # return res["doi"]["value"], res["author"]["value"]
+    l = []
+    # print(json.load(issa_sparql.query().response))
+    for result in json.load(issa_sparql.query().response)["results"]["bindings"]:
+        l.append((result["doi"]["value"], result["author"]["value"]))
+    return l
+    # for doi, author in lists:
+    #     if str(doi) not in results.keys():
+    #         results[str(doi)] = [author]
+    #     else:
+    #         results[str(doi)] += [author]
+    # # print(results)
+    # return results
+
+
+def main(mode: str, limit: int):
+    print("Alignement des auteurs pour {limit} articles du jeu de données ISSA: {endpoint}"
+          .format(limit=limit, endpoint=issa_endpoint))
+    articles = get_articles(limit=limit)
+    dois = dict()
+    for article in articles:
+        doi_authors = get_DOI_with_authors_from_article(article)
+        for doi, author in doi_authors:
+            if str(doi) not in dois.keys():
+                dois[str(doi)] = [author]
+            else:
+                dois[str(doi)] += [author]
     issa_uri_by_dois = dict()
     for doi in dois:
         issa_uri_by_dois[str(doi)] = get_article_issa_from_DOI(doi)
@@ -66,12 +94,12 @@ def main(mode: str):
     if mode == open_alex.MODE:
         results = open_alex.main(dois, issa_uri_by_dois)
         # export dict in file
-        save_results(results, "openalex_100")
+        save_results(results, "openalex_{}".format(limit))
         print("Done !")
     elif mode == semantic_scholar.MODE:
         results = semantic_scholar.main(dois, issa_uri_by_dois)
         # export dict in file
-        save_results(results, "semanticscholar_100")
+        save_results(results, "semanticscholar_{}".format(limit))
         print("Done !")
 
 
@@ -92,9 +120,9 @@ def save_results(results: dict, service: str):
         n_triples = len(fp.readlines())
     stats = define_statistics_from_json_file(results, n_triples)
     save_statistics(stats, "results/stats_{}.json".format(service))
-    print("Done !")
+    print("Results saved !")
 
 
 if __name__ == '__main__':
-    main(semantic_scholar.MODE)
-    # main(semantic_scholar.MODE)
+    # main(open_alex.MODE, 100)
+    main(semantic_scholar.MODE, 100)

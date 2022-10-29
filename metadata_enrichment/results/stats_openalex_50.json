@@ -1,0 +1,12 @@
+{
+  "n_triples": 146,
+  "articles_without_authors_rate": 0.32,
+  "authors": [
+    {
+      "n_authors": 73,
+      "mean_n_authors": 1.46,
+      "std_n_authors": 1.7167838940226317,
+      "mean_matched_authors_rate": 0.30584126984126986
+    }
+  ]
+}

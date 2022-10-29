@@ -1,0 +1,6 @@
+<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5762-5453> .
+<https://orcid.org/0000-0002-5762-5453> <http://www.w3.org/2000/01/rdf-schema#label> 'Faye, Bernard' .
+<http://data-issa.cirad.fr/article/481473> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1171-2535> .
+<https://orcid.org/0000-0002-1171-2535> <http://www.w3.org/2000/01/rdf-schema#label> 'Sabourin, Eric' .
+<http://data-issa.cirad.fr/article/546677> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1243-0887> .
+<https://orcid.org/0000-0003-1243-0887> <http://www.w3.org/2000/01/rdf-schema#label> 'Chillet, Marc' .

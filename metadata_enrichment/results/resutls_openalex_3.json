@@ -1,0 +1,38 @@
+{
+  "endpoint": "https://api.openalex.org/",
+  "articles": [
+    {
+      "doi": "10.19182/remvt.9733",
+      "authors": [
+        {
+          "issa": "Faye, Bernard",
+          "openAlex": "Bernard Faye",
+          "triple": "<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5762-5453> .\n<https://orcid.org/0000-0002-5762-5453> <http://www.w3.org/2000/01/rdf-schema#label> 'Faye, Bernard' ."
+        }
+      ],
+      "authors_matched_rate": 0.1111111111111111
+    },
+    {
+      "doi": "10.37370/raizes.1999.v.173",
+      "authors": [
+        {
+          "issa": "Sabourin, Eric",
+          "openAlex": "Eric Sabourin",
+          "triple": "<http://data-issa.cirad.fr/article/481473> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1171-2535> .\n<https://orcid.org/0000-0002-1171-2535> <http://www.w3.org/2000/01/rdf-schema#label> 'Sabourin, Eric' ."
+        }
+      ],
+      "authors_matched_rate": 1.0
+    },
+    {
+      "doi": "10.1051/fruits:2008027",
+      "authors": [
+        {
+          "issa": "Chillet, Marc",
+          "openAlex": "Luc De Lapeyre de Bellaire",
+          "triple": "<http://data-issa.cirad.fr/article/546677> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1243-0887> .\n<https://orcid.org/0000-0003-1243-0887> <http://www.w3.org/2000/01/rdf-schema#label> 'Chillet, Marc' ."
+        }
+      ],
+      "authors_matched_rate": 0.3333333333333333
+    }
+  ]
+}
