@@ -19,3 +19,10 @@ Example:
 
 ### Problèmes
 Actuellement, le script se heurte aux limite d'utilisation des apis de Semantic Scholar et Open Alex, respectivement 500 / 5 minutes et 100 / 5 secondes. Il est fortement déconseillé d'utilisé une limite au dessus de 300.
+
+#### Sources testées:
+- Semantic Scholar
+- OpenALex
+- DBLP
+- CrossRef
+- ORKG
