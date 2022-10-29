@@ -1,0 +1,316 @@
+{
+  "endpoint": "https://api.openalex.org/",
+  "articles": [
+    {
+      "doi": "10.19182/remvt.9733",
+      "authors": [
+        {
+          "issa": "Faye, Bernard",
+          "openAlex": "Bernard Faye",
+          "triple": "<http://data-issa.cirad.fr/article/477459> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5762-5453> .\n<https://orcid.org/0000-0002-5762-5453> <http://www.w3.org/2000/01/rdf-schema#label> 'Faye, Bernard' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.37370/raizes.1999.v.173",
+      "authors": [
+        {
+          "issa": "Sabourin, Eric",
+          "openAlex": "Eric Sabourin",
+          "triple": "<http://data-issa.cirad.fr/article/481473> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-1171-2535> .\n<https://orcid.org/0000-0002-1171-2535> <http://www.w3.org/2000/01/rdf-schema#label> 'Sabourin, Eric' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1051/fruits:2008027",
+      "authors": [
+        {
+          "issa": "Chillet, Marc",
+          "openAlex": "Luc De Lapeyre de Bellaire",
+          "triple": "<http://data-issa.cirad.fr/article/546677> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1243-0887> .\n<https://orcid.org/0000-0003-1243-0887> <http://www.w3.org/2000/01/rdf-schema#label> 'Chillet, Marc' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1684/agr.2012.0548",
+      "authors": [
+        {
+          "issa": "Jo\u00ebt, Thierry",
+          "openAlex": "Thierry Jo\u00ebt",
+          "triple": "<http://data-issa.cirad.fr/article/564549> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-0531-5146> .\n<https://orcid.org/0000-0002-0531-5146> <http://www.w3.org/2000/01/rdf-schema#label> 'Jo\u00ebt, Thierry' ."
+        },
+        {
+          "issa": "Pot, David",
+          "openAlex": "David Pot",
+          "triple": "<http://data-issa.cirad.fr/article/564549> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-6144-8448> .\n<https://orcid.org/0000-0001-6144-8448> <http://www.w3.org/2000/01/rdf-schema#label> 'Pot, David' ."
+        },
+        {
+          "issa": "Marraccini, Pierre",
+          "openAlex": "Pierre Marraccini",
+          "triple": "<http://data-issa.cirad.fr/article/564549> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-7637-6811> .\n<https://orcid.org/0000-0001-7637-6811> <http://www.w3.org/2000/01/rdf-schema#label> 'Marraccini, Pierre' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1684/agr.2013.0650",
+      "authors": [
+        {
+          "issa": "Mieulet, Delphine",
+          "openAlex": "Delphine Mieulet",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-6220-0372> .\n<https://orcid.org/0000-0001-6220-0372> <http://www.w3.org/2000/01/rdf-schema#label> 'Mieulet, Delphine' ."
+        },
+        {
+          "issa": "Breitler, Jean-Christophe",
+          "openAlex": "Jean-Christophe Breitler",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-7808-9330> .\n<https://orcid.org/0000-0001-7808-9330> <http://www.w3.org/2000/01/rdf-schema#label> 'Breitler, Jean-Christophe' ."
+        },
+        {
+          "issa": "Perin, Christophe",
+          "openAlex": "Christophe P\u00e9rin",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2469-310X> .\n<https://orcid.org/0000-0002-2469-310X> <http://www.w3.org/2000/01/rdf-schema#label> 'Perin, Christophe' ."
+        },
+        {
+          "issa": "Di\u00e9vart, Anne",
+          "openAlex": "Anne Dievart",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-9460-4638> .\n<https://orcid.org/0000-0001-9460-4638> <http://www.w3.org/2000/01/rdf-schema#label> 'Di\u00e9vart, Anne' ."
+        },
+        {
+          "issa": "Courtois, Brigitte",
+          "openAlex": "Brigitte Courtois",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-2118-7102> .\n<https://orcid.org/0000-0003-2118-7102> <http://www.w3.org/2000/01/rdf-schema#label> 'Courtois, Brigitte' ."
+        },
+        {
+          "issa": "Verdeil, Jean-Luc",
+          "openAlex": "Jean-Luc Verdeil",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-7144-9580> .\n<https://orcid.org/0000-0002-7144-9580> <http://www.w3.org/2000/01/rdf-schema#label> 'Verdeil, Jean-Luc' ."
+        },
+        {
+          "issa": "Gantet, Pascal",
+          "openAlex": "Pascal Gantet",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-1314-0187> .\n<https://orcid.org/0000-0003-1314-0187> <http://www.w3.org/2000/01/rdf-schema#label> 'Gantet, Pascal' ."
+        },
+        {
+          "issa": "Guiderdoni, Emmanuel",
+          "openAlex": "Emmanuel Guiderdoni",
+          "triple": "<http://data-issa.cirad.fr/article/570896> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-2760-2864> .\n<https://orcid.org/0000-0003-2760-2864> <http://www.w3.org/2000/01/rdf-schema#label> 'Guiderdoni, Emmanuel' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1590/S0100-67622014000200017",
+      "authors": [
+        {
+          "issa": "Chaix, Gilles",
+          "openAlex": "Mario Tomazello Filho",
+          "triple": "<http://data-issa.cirad.fr/article/573576> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-9814-0778> .\n<https://orcid.org/0000-0002-9814-0778> <http://www.w3.org/2000/01/rdf-schema#label> 'Chaix, Gilles' ."
+        },
+        {
+          "issa": "Chaix, Gilles",
+          "openAlex": "Gilles Chaix",
+          "triple": "<http://data-issa.cirad.fr/article/573576> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-2015-0551> .\n<https://orcid.org/0000-0003-2015-0551> <http://www.w3.org/2000/01/rdf-schema#label> 'Chaix, Gilles' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.4000/economierurale.5813",
+      "authors": [
+        {
+          "issa": "Lemeilleur, Sylvaine",
+          "openAlex": "Sylvaine Lemeilleur",
+          "triple": "<http://data-issa.cirad.fr/article/588487> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-4855-7644> .\n<https://orcid.org/0000-0003-4855-7644> <http://www.w3.org/2000/01/rdf-schema#label> 'Lemeilleur, Sylvaine' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1186/s12862-022-01977-z",
+      "authors": [
+        {
+          "issa": "Barkaoui, Karim",
+          "openAlex": "Karim Barkaoui",
+          "triple": "<http://data-issa.cirad.fr/article/600375> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5787-3748> .\n<https://orcid.org/0000-0002-5787-3748> <http://www.w3.org/2000/01/rdf-schema#label> 'Barkaoui, Karim' ."
+        },
+        {
+          "issa": "Meziere, Delphine",
+          "openAlex": "Delphine Meziere",
+          "triple": "<http://data-issa.cirad.fr/article/600375> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-0019-3845> .\n<https://orcid.org/0000-0003-0019-3845> <http://www.w3.org/2000/01/rdf-schema#label> 'Meziere, Delphine' ."
+        },
+        {
+          "issa": "Lauri, Pierre-Eric",
+          "openAlex": "Pierre-Eric Lauri",
+          "triple": "<http://data-issa.cirad.fr/article/600375> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-7549-0484> .\n<https://orcid.org/0000-0002-7549-0484> <http://www.w3.org/2000/01/rdf-schema#label> 'Lauri, Pierre-Eric' ."
+        },
+        {
+          "issa": "Sarthou, Jean-Pierre",
+          "openAlex": "Jean-Pierre Sarthou",
+          "triple": "<http://data-issa.cirad.fr/article/600375> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-4096-6291> .\n<https://orcid.org/0000-0003-4096-6291> <http://www.w3.org/2000/01/rdf-schema#label> 'Sarthou, Jean-Pierre' ."
+        },
+        {
+          "issa": "Alignier, Audrey",
+          "openAlex": "Audrey Alignier",
+          "triple": "<http://data-issa.cirad.fr/article/600375> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-7619-7124> .\n<https://orcid.org/0000-0002-7619-7124> <http://www.w3.org/2000/01/rdf-schema#label> 'Alignier, Audrey' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1080/26395916.2022.2043940",
+      "authors": [
+        {
+          "issa": "Wyborn, Carina",
+          "openAlex": "Claudia Munera",
+          "triple": "<http://data-issa.cirad.fr/article/600429> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-0601-2312> .\n<https://orcid.org/0000-0003-0601-2312> <http://www.w3.org/2000/01/rdf-schema#label> 'Wyborn, Carina' ."
+        },
+        {
+          "issa": "Wyborn, Carina",
+          "openAlex": "Matthew J. Colloff",
+          "triple": "<http://data-issa.cirad.fr/article/600429> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-3765-0627> .\n<https://orcid.org/0000-0002-3765-0627> <http://www.w3.org/2000/01/rdf-schema#label> 'Wyborn, Carina' ."
+        },
+        {
+          "issa": "Locatelli, Bruno",
+          "openAlex": "Bruno Locatelli",
+          "triple": "<http://data-issa.cirad.fr/article/600429> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-2983-1644> .\n<https://orcid.org/0000-0003-2983-1644> <http://www.w3.org/2000/01/rdf-schema#label> 'Locatelli, Bruno' ."
+        },
+        {
+          "issa": "Wyborn, Carina",
+          "openAlex": "Carina Wyborn",
+          "triple": "<http://data-issa.cirad.fr/article/600429> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-4314-347X> .\n<https://orcid.org/0000-0002-4314-347X> <http://www.w3.org/2000/01/rdf-schema#label> 'Wyborn, Carina' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.20870/productions-animales.2000.13.4.3784",
+      "authors": []
+    },
+    {
+      "doi": "10.19182/remvt.9734",
+      "authors": [
+        {
+          "issa": "Nasser, B.",
+          "openAlex": "Boubker Nasser",
+          "triple": "<http://data-issa.cirad.fr/article/477462> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5795-365X> .\n<https://orcid.org/0000-0002-5795-365X> <http://www.w3.org/2000/01/rdf-schema#label> 'Nasser, B.' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1590/S0103-49792010000100010",
+      "authors": []
+    },
+    {
+      "doi": "10.37370/raizes.2005.v24.244",
+      "authors": [
+        {
+          "issa": "Caron, Patrick",
+          "openAlex": "Patrick Caron",
+          "triple": "<http://data-issa.cirad.fr/article/537503> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-8494-2243> .\n<https://orcid.org/0000-0002-8494-2243> <http://www.w3.org/2000/01/rdf-schema#label> 'Caron, Patrick' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1684/agr.2009.0370",
+      "authors": []
+    },
+    {
+      "doi": "10.3917/eg.301.0013",
+      "authors": [
+        {
+          "issa": "Bousquet, Fran\u00e7ois",
+          "openAlex": "Fran\u00e7ois Bousquet",
+          "triple": "<http://data-issa.cirad.fr/article/479772> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-4552-3724> .\n<https://orcid.org/0000-0002-4552-3724> <http://www.w3.org/2000/01/rdf-schema#label> 'Bousquet, Fran\u00e7ois' ."
+        },
+        {
+          "issa": "Rouchier, Juliette",
+          "openAlex": "Juliette Rouchier",
+          "triple": "<http://data-issa.cirad.fr/article/479772> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-4022-6720> .\n<https://orcid.org/0000-0002-4022-6720> <http://www.w3.org/2000/01/rdf-schema#label> 'Rouchier, Juliette' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.ijid.2018.11.146",
+      "authors": [
+        {
+          "issa": "Tulayakul, Phitsanu",
+          "openAlex": "Phitsanu Tulayakul",
+          "triple": "<http://data-issa.cirad.fr/article/592919> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-4283-1497> .\n<https://orcid.org/0000-0003-4283-1497> <http://www.w3.org/2000/01/rdf-schema#label> 'Tulayakul, Phitsanu' ."
+        },
+        {
+          "issa": "Binot, Aur\u00e9lie",
+          "openAlex": "Aur\u00e9lie Binot",
+          "triple": "<http://data-issa.cirad.fr/article/592919> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-0295-4241> .\n<https://orcid.org/0000-0002-0295-4241> <http://www.w3.org/2000/01/rdf-schema#label> 'Binot, Aur\u00e9lie' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1023/A:1001880030275",
+      "authors": [
+        {
+          "issa": "Swennen, R.",
+          "openAlex": "Rony Swennen",
+          "triple": "<http://data-issa.cirad.fr/article/263679> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5258-9043> .\n<https://orcid.org/0000-0002-5258-9043> <http://www.w3.org/2000/01/rdf-schema#label> 'Swennen, R.' ."
+        },
+        {
+          "issa": "Dolezel, Jaroslav",
+          "openAlex": "Jaroslav Dole\u017eel",
+          "triple": "<http://data-issa.cirad.fr/article/263679> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-6263-0492> .\n<https://orcid.org/0000-0002-6263-0492> <http://www.w3.org/2000/01/rdf-schema#label> 'Dolezel, Jaroslav' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1029/96JD01621",
+      "authors": [
+        {
+          "issa": "B\u00e9gu\u00e9, Agn\u00e8s",
+          "openAlex": "Agn\u00e8s B\u00e9gu\u00e9",
+          "triple": "<http://data-issa.cirad.fr/article/388319> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-9289-1052> .\n<https://orcid.org/0000-0002-9289-1052> <http://www.w3.org/2000/01/rdf-schema#label> 'B\u00e9gu\u00e9, Agn\u00e8s' ."
+        },
+        {
+          "issa": "Myneni, R.",
+          "openAlex": "Ranga B. Myneni",
+          "triple": "<http://data-issa.cirad.fr/article/388319> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-0234-6393> .\n<https://orcid.org/0000-0002-0234-6393> <http://www.w3.org/2000/01/rdf-schema#label> 'Myneni, R.' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1128/AEM.60.11.3974-3980.1994",
+      "authors": [
+        {
+          "issa": "Prin, Yves",
+          "openAlex": "Y. Prin",
+          "triple": "<http://data-issa.cirad.fr/article/388623> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-3706-0045> .\n<https://orcid.org/0000-0002-3706-0045> <http://www.w3.org/2000/01/rdf-schema#label> 'Prin, Yves' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1128/AEM.61.12.4343-4347.1995",
+      "authors": [
+        {
+          "issa": "Frutos, Roger",
+          "openAlex": "Roger Frutos",
+          "triple": "<http://data-issa.cirad.fr/article/390900> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-8926-3119> .\n<https://orcid.org/0000-0002-8926-3119> <http://www.w3.org/2000/01/rdf-schema#label> 'Frutos, Roger' ."
+        }
+      ]
+    },
+    {
+      "doi": "10.1007/BF00202672",
+      "authors": []
+    },
+    {
+      "doi": "10.1128/AEM.61.6.2086-2092.1995",
+      "authors": [
+        {
+          "issa": "Luo, K.",
+          "openAlex": "William J. Moar",
+          "triple": "<http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-8396-3034> .\n<https://orcid.org/0000-0002-8396-3034> <http://www.w3.org/2000/01/rdf-schema#label> 'Luo, K.' ."
+        },
+        {
+          "issa": "Frutos, Roger",
+          "openAlex": "Roger Frutos",
+          "triple": "<http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-8926-3119> .\n<https://orcid.org/0000-0002-8926-3119> <http://www.w3.org/2000/01/rdf-schema#label> 'Frutos, Roger' ."
+        },
+        {
+          "issa": "Adang, M.J.",
+          "openAlex": "Michael J. Adang",
+          "triple": "<http://data-issa.cirad.fr/article/391531> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-6864-2550> .\n<https://orcid.org/0000-0001-6864-2550> <http://www.w3.org/2000/01/rdf-schema#label> 'Adang, M.J.' ."
+        }
+      ]
+    }
+  ]
+}
