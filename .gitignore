@@ -16,3 +16,11 @@ Node/citations_graph/package-lock.json
 Node/website/dist/
 
 Node/website/package-lock.json
+
+citations_graph/node_modules/
+
+citations_graph/package-lock.json
+
+citations_graph/semanticScholar.ttl
+
+citations_graph/OpenAlex.ttl
